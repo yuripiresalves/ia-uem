@@ -1,0 +1,256 @@
+[
+  {
+    "article": "artigos/web/Strategies_for_web_application_development_methodologies.pdf",
+    "objective": "purpose, constitute \nsoftware application and an application running on a \nnetwork, providing servic",
+    "frequencia": [
+      [
+        "web",
+        77
+      ],
+      [
+        "development",
+        73
+      ],
+      [
+        "application",
+        70
+      ],
+      [
+        "methodology",
+        27
+      ],
+      [
+        "based",
+        27
+      ],
+      [
+        "object",
+        25
+      ],
+      [
+        "agile",
+        24
+      ],
+      [
+        "approach",
+        19
+      ],
+      [
+        "framework",
+        18
+      ],
+      [
+        "figure",
+        17
+      ]
+    ]
+  },
+  {
+    "article": "article 4",
+    "objective": "purposes to support the claims and demonstratethe strengths of PW A.\nIndex T erms \u2014Progressive Web a"
+  },
+  {
+    "article": "article 4",
+    "objective": "purposes to support the claims and demonstratethe strengths of PW A.\nIndex T erms \u2014Progressive Web a,aims to provide an intermediate be-tween native applications and web applications. PW As provide\ncer"
+  },
+  {
+    "article": "article 6",
+    "objective": "purposes to plan \neffective strategies to understand, diagnose, prevent, and treat \ndiseases based o"
+  },
+  {
+    "article": "article 6",
+    "objective": "purposes to plan \neffective strategies to understand, diagnose, prevent, and treat \ndiseases based o,this paper, we propose a prototype of the wireframing \nprocess to develop a website for DTC genetic "
+  },
+  {
+    "article": "article 7",
+    "objective": "objective of this study is  to sur vey industry practices related  to the \nthem es from that map.   "
+  },
+  {
+    "article": "artigos/web/Managing_Accessibility_Requirements_in_Web_Application_Development_Projects_The_Perspectives_from_Research_and_the_Industry.pdf",
+    "objective": "objective of this study is  to sur vey industry practices related  to the \nthem es from that map.   ,this study is  to provide, through \na structured and comprehe nsive review of relevant \nresearc h, a",
+    "frequencia": [
+      [
+        "accessibility",
+        113
+      ],
+      [
+        "web",
+        107
+      ],
+      [
+        "application",
+        61
+      ],
+      [
+        "development",
+        36
+      ],
+      [
+        "e",
+        30
+      ],
+      [
+        "barrier",
+        25
+      ],
+      [
+        "mean",
+        24
+      ],
+      [
+        "user",
+        21
+      ],
+      [
+        "tool",
+        20
+      ],
+      [
+        "testing",
+        19
+      ]
+    ]
+  },
+  {
+    "article": "artigos/web/Development_of_a_web_system_for_recognizing_the_images_taken_by_UAV.pdf",
+    "objective": "purpose  of the study  is to focus  on web \nprogramming  with ML, which  is using  for development  ",
+    "frequencia": [
+      [
+        "web",
+        57
+      ],
+      [
+        "application",
+        41
+      ],
+      [
+        "system",
+        40
+      ],
+      [
+        "development",
+        28
+      ],
+      [
+        "image",
+        20
+      ],
+      [
+        "technology",
+        18
+      ],
+      [
+        "heroku",
+        16
+      ],
+      [
+        "user",
+        15
+      ],
+      [
+        "service",
+        14
+      ],
+      [
+        "software",
+        13
+      ]
+    ]
+  },
+  {
+    "article": "artigos/web/Efficient_Automation_of_Web_Application_Development_and_Deployment_Using_Jenkins_A_Comprehensive_CI_CD_Pipeline_for_Enhanced_Productivity_and_Quality.pdf",
+    "objective": "this study  seek to shed light on \nthe ways in which Jenkins automates essential tasks, enables \near",
+    "frequencia": [
+      [
+        "jenkins",
+        108
+      ],
+      [
+        "development",
+        45
+      ],
+      [
+        "pipeline",
+        44
+      ],
+      [
+        "code",
+        40
+      ],
+      [
+        "automation",
+        38
+      ],
+      [
+        "software",
+        35
+      ],
+      [
+        "deployment",
+        34
+      ],
+      [
+        "developer",
+        31
+      ],
+      [
+        "integration",
+        30
+      ],
+      [
+        "continuous",
+        29
+      ]
+    ]
+  },
+  {
+    "article": "artigos/web/Web_application_development_model_with_security_concern_in_the_entire_life-cycle.pdf",
+    "objective": "this study  seek to shed light on \nthe ways in which Jenkins automates essential tasks, enables \near,this study underscores the considerable \nbenefits of integrating Jenkins automation. Overall, this \n",
+    "frequencia": [
+      [
+        "security",
+        101
+      ],
+      [
+        "application",
+        61
+      ],
+      [
+        "web",
+        59
+      ],
+      [
+        "development",
+        52
+      ],
+      [
+        "model",
+        32
+      ],
+      [
+        "study",
+        29
+      ],
+      [
+        "prototype",
+        27
+      ],
+      [
+        "vulnerability",
+        22
+      ],
+      [
+        "lifecycle",
+        21
+      ],
+      [
+        "test",
+        19
+      ]
+    ]
+  },
+  {
+    "article": "article 10",
+    "objective": "this study investigated the state of the art security considerations in web application development "
+  }
+]

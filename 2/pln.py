@@ -11,6 +11,30 @@ nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('wordnet')
 
+results = [
+    # {
+    #     'article': '',
+    #     'objective': '',
+    #     'problem': '',
+    #     'abstract': '',
+    #     'introduction': '',
+    #     'references': ''
+    # },
+    # {
+    #     'article': '',
+    #     'objective': '',    
+    #     'problem': '',
+    #     'abstract': '',
+    #     'introduction': '',
+    #     'references': ''
+    # }
+]
+
+def write_in_json(results):
+    import json
+    with open('results.json', 'w') as f:
+        json.dump(results, f, indent=2)
+
 def write_in_file(text):
     with open('results.txt', 'a') as f:
         f.write(text + ';;')
@@ -41,8 +65,9 @@ def get_introduction(txt):
     else:
         return
     
-def get_objective(txt):
+def get_objective(txt, idx):
     introduction = get_introduction(txt)
+    abstract = get_abstract(txt)
     
     key_words = [
         "objective",
@@ -70,10 +95,28 @@ def get_objective(txt):
         if i != -1:
             objectives.append(introduction[i:i+100])
             objective = ','.join(objectives)    
-            write_in_file(objective)
-            print('Objetivo: ' + objective)
-        else:
-            break
+            # write_in_file(objective)
+            results.append({
+                'article': 'article ' + str(idx+1),
+                'objective': objective
+            })
+            write_in_json(results)
+            # print('INTRODUÇÃO - Objetivo: ' + objective)
+        
+        
+    for word in key_words:
+        i = str(abstract).find(word)
+        if i != -1:
+            objectives.append(abstract[i:i+100])
+            objective = ','.join(objectives) 
+            results.append({
+                'article': 'article ' + str(idx+1),
+                'objective': objective
+            })   
+            write_in_json(results)
+            # write_in_file(objective)
+            # print('ABSTRACT - Objetivo: ' + objective)
+
 
     # i = txt.find('objective')
     # aux = txt[i:i+100]
@@ -150,60 +193,71 @@ def main():
         for page in reader.pages:
             content += page.extract_text()
 
-        get_references(content)
-        get_objective(content) # Objective of the article
+        # get_references(content)
+        get_objective(content, idx) # Objective of the article
         # get_problem(content) # Problem of the article
         
-        # content = content.split('REFERENCES')[0] #Remove the references from article
-        # content = content.lower()
+        content = content.split('REFERENCES')[0] #Remove the references from article
+        content = content.lower()
 
-        # # exit()
-        # text = ''.join([c for c in content if c not in string.punctuation])
+        # exit()
+        text = ''.join([c for c in content if c not in string.punctuation])
 
 
-        # # Tokenização
-        # tokens = word_tokenize(text)
-        # # print(tokens)
+        # Tokenização
+        tokens = word_tokenize(text)
+        # print(tokens)
 
-        # # Remoção de stopwords
-        # stop_words = set(stopwords.words('english'))
-        # tokens = [word for word in tokens if word.lower() not in stop_words]
-        # # print(tokens)
+        # Remoção de stopwords
+        stop_words = set(stopwords.words('english'))
+        tokens = [word for word in tokens if word.lower() not in stop_words]
+        # print(tokens)
 
-        # # Stemming
-        # # stemmer = SnowballStemmer('english')
-        # # tokens = [stemmer.stem(word) for word in tokens]
-        # # print(tokens)
+        # Stemming
+        # stemmer = SnowballStemmer('english')
+        # tokens = [stemmer.stem(word) for word in tokens]
+        # print(tokens)
 
-        # # Lematização
-        # lemmatizer = WordNetLemmatizer()
-        # tokens = [lemmatizer.lemmatize(word) for word in tokens]
-        # # print(tokens)
+        # Lematização
+        lemmatizer = WordNetLemmatizer()
+        tokens = [lemmatizer.lemmatize(word) for word in tokens]
+        # print(tokens)
 
-        # # Frequência
+        # Frequência
 
-        # freq = nltk.FreqDist(tokens)
-        # #print('Frequência de palavras')
-        # #print(freq.most_common(10))
-        # #print('-------------------------------------')
-        # # freq.plot(10, cumulative=False)
+        freq = nltk.FreqDist(tokens)
+        #print('Frequência de palavras')
+        #print(freq.most_common(10))
+        if idx < len(results):
+            results[idx]['article'] = path[idx]
+            # results[idx]['abstract'] = get_abstract(content)
+            # results[idx]['introduction'] = get_introduction(content)
+            # results[idx]['references'] = get_references(content)
+            # results[idx]['problem'] = get_problem(content)
+            # results[idx]['objective'] = get_objective(content, idx)
+            results[idx]['frequencia'] = freq.most_common(10)
+            write_in_json(results)
+        else:
+            print("No result found for index:", idx)
+        #print('-------------------------------------')
+        # freq.plot(10, cumulative=False)
 
-        # # # Bigramas
-        # bigrams = list(nltk.bigrams(tokens))
-        # # print(bigrams)
-        # freq_bigrams = nltk.FreqDist(bigrams)
-        # #print('Frequência de bigramas')
-        # #print(freq_bigrams.most_common(10))
-        # #print('-------------------------------------')
-        # # freq_bigrams.plot(10, cumulative=False)
+        # # Bigramas
+        bigrams = list(nltk.bigrams(tokens))
+        # print(bigrams)
+        freq_bigrams = nltk.FreqDist(bigrams)
+        #print('Frequência de bigramas')
+        #print(freq_bigrams.most_common(10))
+        #print('-------------------------------------')
+        # freq_bigrams.plot(10, cumulative=False)
 
-        # # # Trigramas
-        # trigrams = list(nltk.trigrams(tokens))
-        # # print(trigrams)
-        # freq_trigrams = nltk.FreqDist(trigrams)
-        # #print('Frequência de trigramas')
-        # #print(freq_trigrams.most_common(10))
-        # #print('-------------------------------------')
-        # # freq_trigrams.plot(10, cumulative=False)
+        # # Trigramas
+        trigrams = list(nltk.trigrams(tokens))
+        # print(trigrams)
+        freq_trigrams = nltk.FreqDist(trigrams)
+        #print('Frequência de trigramas')
+        #print(freq_trigrams.most_common(10))
+        #print('-------------------------------------')
+        # freq_trigrams.plot(10, cumulative=False)
 
 main()
