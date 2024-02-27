@@ -21,6 +21,16 @@ def get_references(txt):
     references = txt[i+10:].strip()
     write_in_file(references)
     
+def get_abstract(txt):
+    start = txt.find('Abstract')
+    end = txt.find('I.')
+
+    if start != -1 and end != -1:
+        abstract = txt[start+8:end].strip()
+        return abstract
+    else:
+        return
+    
 def get_introduction(txt):
     start = txt.find('INTRODUCTION')
     end = txt.find('II.')
@@ -47,7 +57,10 @@ def get_objective(txt):
         "investigative goal",
         "scope",
         "mission",
-        "this study is"
+        "this study",
+        "this paper",
+        "this research",
+        "this article"
     ]
 
     objectives = []
@@ -58,6 +71,7 @@ def get_objective(txt):
             objectives.append(introduction[i:i+100])
             objective = ','.join(objectives)    
             write_in_file(objective)
+            print('Objetivo: ' + objective)
         else:
             break
 

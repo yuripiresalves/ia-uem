@@ -1,0 +1,1661 @@
+1. Agile development: An overview; 
+http://www.richappsconsulting.com/blog/blog-detail/agile-
+development- an-overview/; Retrieved 9th April, 2013. 
+2. Campbell-Kelly, Martin; Aspray, William (1996), ―Computer: A 
+History of the Information Machine‖ ; New York: Basic 
+Books. ISBN 0-465-02990-6. 
+3. Center of online learning, research and service. 
+http://www.uis.edu/colrs/learning/technologies/web20/  Retrieved 
+20th May, 2013. 
+4. D. Ungar and R.B. Smith; ―Self: The Power of Simplicity‖; Proc. 
+OOPSLA 87, ACM Press, New York, 1987, pp. 227- 242. 
+5. Dieter Blomme, Nico Goeminney, Frank Gielen and Filip De 
+Turck; ―A Two Lay er Approach for Ubiquitous Web Application 
+Development‖; IEEE 2009: Computation World: Future 
+Computing, Service Computation, Cognitive, Adaptive, Content, 
+Patterns. 
+6. Douglas C. Schmidt, Steve Vinoski; ― Object Interconnections: 
+An Introduction to CORBA Mess aging‖; SIGS C++ Report 
+magazine, November/December 1998, column 15. 
+7. Dr. Dobb, The world of software development; 
+http://www.drdobbs.com/; Retrieved 9th April, 2013. 
+8. Eric J. Byrne; Software Reverse Engineering: A Case Study, 
+Software —Practice and Experience; Vol. 21(12), 1349 –1364 
+(December 1991). 
+9. Eun Sook Cho, So0 Dong Kim, Sung Yul Rhew, Sang Duck Lee, 
+Chang Gap Kim; ― Object-Oriented Web Application 
+Architectures and Development Strategies ‖; IEEE 1997. 
+10. F. Ricca; ―Analysis, Testing and Restructuring of Web  
+Applications‖; IEEE ICSM 2004.  
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:42:38 UTC from IEEE Xplore.  Restrictions apply.;;1. Front -end, Back -end, DevOps  vs Full-stack:  A Developers’  Guide  for 
+Founders  and CEOs  [Online].  Available  at: 
+https://www.masterborn.com/blog/Frontend_vs_backend_guide   
+2. Kliushnikov,  I., Fesenko,  H., Kharchenko,  V., Illiashenko,  O. & 
+Morozova,  O. (2021).  UAV  fleet based  accident  monitoring  systems  
+with automatic  battery  replacement  systems:  Algorithms  for justifying  
+composition  and use planning.  International  Journal  of Safety and 
+Security  Engineering,  Vol. 11, No. 4, pp. 319-328. 
+https://doi.org/10.18280/ijsse.110404  
+3. Sun, Y.; Fesenko,  H.; Kharchenko,  V.; Zhong,  L.; Kliushnikov,  I.; 
+Illiashenko,  O.; Morozova,  O. & Sachenko,  A. (2022).  UAV  and IoT-
+Based  Systems  for the Monit oring  of Industrial  Facilities  Using  Digital  
+Twins:  Methodology,  Reliability  Models,  and Application.  Sensors , 
+Vol. 22, 6444.  https://doi.org/10.3390/s22176444  
+4. Maji,  S., Rahtu,  E., Kannala,  J., Blaschko,  M., and Vedaldi,  A. Fine-
+grained  visual  classification  of aircraft.  arXiv  preprint  
+arXiv:1306.5151,  2013.  
+5. He, K., Zhang,  X., Ren, S., and Sun, J. Deep  residual  learning  for image  
+recognition.  CVPR,  pp. 770–778, 2016.  6. Zoph,  B., Vasudevan,  V., Shlens,  J., and Le, Q. V. Learning  
+transferable  archit ectures  for scalable  image  recognition.  CVPR,  2018.  
+7. Kumari,  V., Harirchian,  E., Lahmer,  T., & Rasulzade,  S. (2022).  
+Evaluation  of Machine  Learning  and Web -Based  Process  for Damage  
+Score  Estimation  of Existing  Buildings.  Buildings,  12(5),  578.  
+8. Chollet,  F. Xception:  Deep  learning  with depthwise  separable  
+convolutions.  CVPR,  pp. 1610–02357,  2017.  
+9. Papadonikolaki,  E., Krystallis,  I., & Morgan,  B. (2022).  Digital  
+Technologies  in Built  Environment  Projects:  Review  and Future  
+Directions.  Project  Management  Journal , 87569728211070225.  
+10. Landing  page  [Online].  Available  at: 
+https://mailchimp.com/marketing -glossary/landing -pages/   
+11. About  Joomla!  [Online].  Available  at: https://www.joomla.org/about -
+joomla.html  
+12. GNU  General  Public  License  [Online].  Available  at: 
+https://www.gnu.org/licenses/gpl -3.0.html  
+13. What  Is WordPress?  [Online].  Available  at: 
+https://ithemes.com/tutorials/what -is-wordpress/  
+14. Drupal  – Open  Source  CMS  [Online].  Available  at: 
+https://www.drupal. org/  
+15. Meet  Django  [Online].  Available  at: https://www.djangoproject.com/   
+16. What  is Python  [Online].  Available  at: 
+https://docs.python.org/3/faq/general.html#what -is-python  
+17. Python  Docs  [Online].  Available  at: https://docs.python.org/3/   
+18. A faster  way to build  and share  data apps [Online].  Available  at: 
+https://streamlit.io/  
+19. Node.js  [Online].  Available  at: https://nodejs.org/en/   
+20. DigitalOcean  [Online].  Available  at: https://www.digitalocean.com/   
+21. AWS  [Online].  Available  at: https://aws.amazon.com/   
+22. Google  Cloud  Platform  [Online].  Available  at: 
+https://cloud.google.com/   
+23. Heroku  [Online] . Available  at: https://www.heroku.com  
+24. HTTP  Routing  [Online].  Available  at: 
+https://devcenter.heroku.com/articles/http -routing   
+25. Heroku  vs AWS:  comparative  review  [Online].  Available  at: 
+https://light -it.net/blog/heroku -vs-aws-comparative -review/   
+26. The Impact  of Machine  Learning  on Web  Development  [Online] . 
+Available  at: https://business -review.eu/tech/it/the -impact -of-machine -
+learning -on-web-development -227507   
+27. Tan, M., & Le, Q. (2019,  May).  Efficientnet:  Rethinking  model  scaling  
+for convolutional  neural  network s. In International  conference  on 
+machine  learning  (pp. 6105 -6114).  
+28. Image  classification  via fine-tuning  with EfficientNet  [Online].  
+Available  at: 
+https://keras .io/examples/vision/image_classification_efficientnet_fine
+_tuning/  
+29. Gruner,  Stefan.  On the historical  semantics  of the notion  of software  
+architecture.  TD: The Journal  for Transdisciplinary  Research  in 
+Southern  Africa  10.1 (2014):  37-66. 
+30. GitHub  repository  [Online].  Available  at: 
+https://github.com/Singlefig/diploma -repo 
+ 
+ 
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:36:52 UTC from IEEE Xplore.  Restrictions apply.;;[1] Fowler, M., & Foemmel, M , “Continu ous Integration ”,2006, Martin 
+Fowler.  
+[2] DuVall, P., Matyas, S., & Glover, A ,“Continuous Integration in Agile 
+Teams ”,2007, Addison -Wesley Professional.  
+[3] Farley, D., & Humble, J ,“Continuous Delivery: Reliable Software 
+Releases through Build, Test, and Deployment Au tomation ”,2010,  
+Addison -Wesley Professional.  
+[4] Cawood, S., & Gerber, A ,”Continuous Integ ration and Deployment 
+for AngularJS and Node. js Applications ”,2015, Springer International 
+Publishing.  
+[5] Joakim Verona , “Jenkins: The Definitive Guide. O'Reilly 
+Media. ”,2011  
+[6] Monk, M. ”Jenkins 2.x Continuous Integration Cookbook ”,2016, Packt 
+Publishing.  
+[7] Stellman, A., & Greene, J. ” Continu ous Integ ration: Improving  
+Software Quality and Reducing Risk ”,2014,  Pearson Education.  
+[8] Smart, J “Continu ous Delivery: Reliable Software Releases throug h 
+Build, Test, and Deployment Au tomation. ”,2011,  Addison -Wesley 
+Professional.  
+[9] Humble, J., & Farl ey, D. “Continuous Delivery: Reliable Software 
+Releases through Build, Test, and Deployment 
+Automation ”,2010, Addison -Wesley Professional.  
+[10] Smart, J., & Ferguson, I. ”Jenkins 2: Up and Running. ”,2020,  O'Reilly 
+Media.  
+[11] Gruver, T., & Matyas, T. ”A Practical Guide  to Jenkins: Get Started  
+With Jenkins, Git, and Maven ",2019,  O'Reilly Media.  
+[12] Quick, R., & Davis, A. ”Jenkins X: Continuous Delivery with 
+Kubernetes ”,2020, O'Reilly Media.  
+[13] Silvia Puglisi, Maria Teresa Vlachopoulou, Domenico Amalfitano, & 
+Porfirio Tramontana. “Evaluation of Jenkins Plugins for Integration of 
+Testing Tools in CI/CD Processes ”,2020,  IEEE.  
+[14] Newman, S. ”Building Microservices: Designing Fine -Grained  
+Systems ",2017, O'Reilly Media.  
+[15] Chambers, D., Harris, I., & Köhler, S ,“Jenkins, The Ultimate 
+Guide”,2020 ,Udemy.   Proceedings of the International Conference on Self Sustainable Artificial Intelligence Systems (ICSSAS 2023)
+IEEE Xplore Part Number: CFP22DN7-ART; ISBN: 979-8-3503-0085-7
+979-8-3503-0085-7/23/$31.00 ©2023 IEEE 756
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:36:35 UTC from IEEE Xplore.  Restrictions apply.;;ve Web Applications, a New Way for
+Faster Testing of Mobile Application Products
+1stAatmaj Mhatre
+Dept. Computer Science
+K.J. Somaiya College of Engineering
+Vidyavihar , India
+https://orcid.org/0009-0006-0795-07132ndSwati Mali
+Dept. Computer Science
+K.J. Somaiya College of Engineering
+Vidyavihar , India
+https://orcid.org/0009-0004-6055-4010
+Abstract —Progressive Web application (PW A) is a rapidly
+emerging technology that aims to provide an intermediate be-tween native applications and web applications. PW As provide
+certain advantages over traditional web applications, making
+them easier and faster to build compared to native applications.This paper discusses the PW A methodology, its advantages,and applications in detail. It also compares PW A with nativeand website application developments and presents PW A as aneffective method for rapid prototyping. This study uses an app
+developed for security guards at a university for identiﬁcation
+and veriﬁcation purposes to support the claims and demonstratethe strengths of PW A.
+Index T erms —Progressive Web applications, product develop-
+ment, user testing, mobile application development, entrepreneur-
+ship, software development lifecycle
+I. I NTRODUCTION
+The traditional method of launching a mobile-based appli-
+cation into the market uses native applications. The nativeapplications are available on the App Store or Play Storeand are installed on devices for development and testingpurposes. However, application development using any nativeapplication requires a considerable amount of cost and time.Many startups do not possess that many resources and thusface delays in product delivery processes. The ProgressiveApp Development (PW A) approach is a great boon in suchscenarios, as the time and effort required to build a PW Aare less when compared to a native application. In essence,a PW A is a web interface with an appearance and behavior
+similar to a native mobile app that can be used for application
+development. The PW As also greatly support rapid prototyp-ing. A Rapid prototype is a small-scale working prototypeof the project in hand that can be used for user testing andconcept validation. Such a prototype must be cost-effective,
+fast and easy to modify. Such prototyping allows startups to
+fail early. Rather than investing time and effort into buildinga native application and then failing, making a PW A rapidprototype is very cost and time-efﬁcient. Moreover, PW As areeasier to change than native apps and hence can be used forA/B testing in the early stages of product development. Thus
+the most costly process of building a the ﬁnal product can beshielded from requirements change by using PW As for rapid
+prototyping and testing.
+As PW A is still an emerging domain of research, the
+paper aims at providing an overview of the methodology,compare it with traditional development approaches and give
+a experimental analysis of advantages with application devel-opment with PW A. The claims in this study are supported andvalidated using an application developed using PW A that aimsat identiﬁcation and veriﬁcations of students at the securitygates of a university campus.
+The paper is organized as follows: Section I introduces the
+paper. Section II describes the literature survey of progressiveweb applications. Section III offers a new methodology thatreduces the time required for testing of mobile applicationsusing PW As. Section IV describes the advantages of PW As
+over Native applications in the context of rapid prototyping,
+while section V describes its advantages over web applications.Section VI presents the experimental results of PW A testingtesting and ﬁnally, section VII concludes the paper.
+II. L
+ITERA TURE SURVEY
+Researchers have been studying and practising more ef-
+fective ways of software development. PW A is one of thestrong candidates of such studies. The PW A concept was ﬁrstintroduced by Google in 2015. Since then, PW A developmenthas been rapidly gaining popularity [5] [1]. It is considered an
+emerging technology with tremendous potential in the future.
+PW As can be cached easily and increase user engagement[21]. Some popular PW As include Uber, Spotify and Flipcart[9]. PW As are especially beneﬁcial for startup enterprises.Many studies have been carried out on PW As that comparethem against traditional native or web applications. Biørn-Hansen and others [11] [12] have scrutinized and comparedPW As against cross-platform app development approaches.They have tested various types of applications for performancewith the help of two case studies. Tandel and Jamadar [22]have discussed the impact of PW A on web development. Theyhave compared the features provided by Naive applications,general applications and PW As. Mole [19] reviewed the dif-ferent issues and challenges in cross-platform developmentand its applications, discussed the approaches that may resolvethese issues and discussed how the PW A addressed the issues.Lee and others [18] have studied the security and privacy ofPW As. They have identiﬁed security and design ﬂaws in PW Adevelopment. Fournier [14] has compared the performanceof PW A and native applications in terms of smoothness,memory and CPU usage. The results of the study implied that2023 3rd Asian Conference on Innovation in Technology (ASIANCON) 
+Pune, India. Aug 25-27, 2023
+979-8-3503-0228-8/23/$31.00 ©2023 IEEE 12023 3rd Asian Conference on Innovation in Technology (ASIANCON) | 979-8-3503-0228-8/23/$31.00 ©2023 IEEE | DOI: 10.1109/ASIANCON58793.2023.10269806
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:42:13 UTC from IEEE Xplore.  Restrictions apply. T ABLE I
+COMP ARISON AMONG NA TIVE ,W EBSITE AND PW A
+Native Website PW A
+Ofﬂine yes No yes
+Push notiﬁcation yes No yes
+Mobile speciﬁc yes No yes
+Home screen access yes No yes
+No download No yes yes
+No marketplace No yes yes
+Linkeble and Sharable No yes yes
+Low data No yes yes
+No updates No yes yes
+PW A, though they have great beneﬁts, were not as smooth
+as Mobile applications on Android. Frankston [15] exploredvarious aspects of PW As. Recently, Fauzan and others [13]have provided a literature review on PW As.
+PW A development has been discussed in various project re-
+views and theses. Rensema [20] has explained various aspectsof PW A development like compatibility, performance, security,privacy, and user/business impact along with use cases. Lama[17] has discussed the technical details of PW A development
+including core tech, design, tools, and technologies. Kerssens[16] has studied the difference in the performance of PW Aswith native and traditional web applications. They have shownthat the performance and energy consumption of a PW Ais at least similar or even slightly better when compared
+to the traditional approaches of Native and Web in mobile
+development. A summary of all the observations of the studies
+can be found in table ??.
+V arious sources on the internet provide useful information
+on Progressive web applications. Web.dev [9] provides variouscase studies on PW A development. Google’s PW A website [4]
+also provides various resources for PW A development. In this
+study, we aim to utilize PW A for rapid testing of ideas fornew products. To our knowledge, there has been no previousstudy on this speciﬁc topic.
+III. P
+ROPOSED METHODOLOGY
+In this section, we propose a methodology for the testing
+of a mobile application product.
+The most expensive and time-consuming stage of mobile
+app development is the production stage. Building any featurein the native mobile application requires time. The feature hasto go through stages like development, testing and deployment.However, in the early stages of product development, manyideas fail. This means that if a feature that has been builtdoes not become a success, all time and resources are wasted.PW As can help to minimize this risk of wastage by providinglow-cost testable prototypes of the features. The developmentof a feature in PW A is cheaper when compared to nativeapplications. If new features are built ﬁrst using PW As, theycan be tested on real users. Moreover, multiple variants of thesame idea can be A/B tested on PW A applications in a veryeasy manner. This testing can be done across all platformson real users. If the feature idea fails, only a small amountof effort is lost. If the idea is a success, then the samefeature can be built on native applications. The time taken
+to build this feature on the native application can be used totest new features in PW A in parallel. This way ensures theminimization of failure risk. The ﬂowchart above shows theprocess using PW A. The same methodology can be appliedto the initial prototype development and ideation process. Theprocess without PW A is shown in ﬁgure III. The methodologyproposed is shown in ﬁgure III.
+Fig. 1. Methodology without PW A
+IV . A DV ANT AGES OF PW A OVER NA TIVE APPS
+PW As have numerous advantages. Many of them have been
+discussed in detail by many references [11] [17] [19] [5]. In
+this section, only the advantages of PW A that are relevant tothe context of Rapid prototyping are discussed.
+A. Ease of development
+PW As are seen as a uniﬁer between native and web applica-
+tions [11]. Since a progressive web application is built usingthe same tools as websites, thus providing compatibility withits web app versions [5]. Almost every web application can be
+easily converted into a PW A. Recent conversions of web apps
+to PW A for desktops include Y ouTube, Google Drive, Twitter,and Facebook.
+PW As can be built using the exact same tools as any other
+web application. This provides the following advantages in thecontext of startups -
+2
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:42:13 UTC from IEEE Xplore.  Restrictions apply. Fig. 2. Proposed methodology with PW A
+1) This makes the development process faster.
+2) Less cost of development.3) Less talent is required than native application builders.4) Ease of development provides lesser training time.
+B. Multiplatform
+One of the most important advantages of PW A for startup
+enterprises is the lesser overhead of development across
+various platforms. The write-once-use-anywhere beneﬁt ofPW As drastically reduces the cost of development, testing andmaintenance.
+1) Operating systems compatibility: PW As can be conﬁg-
+ured to be installed on any mobile device as well as desktop.Both IOS [6] and Android systems support PW As in varyingcapabilities. PW A can be installed on Macintosh systems(OSX), Windows OS, and Linux OS variants as well as canbe run through all supported browsers. This power of PW Amakes it a popular choice for various applications that needto be run on mobile as well as desktop [5]. PW As can runon almost all major operating systems and devices includingAndroid and IOS mobiles, Ipads, and Chrome Books.
+The table IV -B1 summarizes the features provided by PW As
+on different platforms. This multiplatform feature makes test-ing across users with various devices easier. Currently, only
+Flutter is the most popular framework with the multiplatformfeature.T ABLE II
+COMP A TIBILITY OF PW A ACROSS MOBILE FRAMEWORKS .
+Feature Android - Google IOS - Safari
+Web Push Notiﬁcations Available Not Available
+Ofﬂine Browsing Available Available
+Background Synchronization Available Not Available
+App launching screen Available Not Available
+Add to the home screen Available Available
+Bluetooth Available Not Available
+Geolocation Available Available
+Geofencing Not Available Not Available
+Image Capture Available Available
+Video Capture Available Available
+Host on Store Available Available
+2) Browser compatibility: Chromium-based browsers pro-
+vide support for PW A on all devices except iOS and iPadOS.As of now, iOS and iPadOS users have to use Safari forinstalling web applications. Firefox does not support PW Aexcept for partial support for Android devices.
+C. No Update is required
+In the case of native applications, users have to be bothered
+again and again to update the application. This prevents theapplication from making small and numerous test cycles.Except for Over The Air (OT A) updates, other updates needto be veriﬁed by Google or Apple before they can be im-plemented. This further restricts the time to market for rapid
+test cycles. All this can be reduced by using PW As whichdo not need frequent explicit updates. PW As can synchronizeand update in the background. More details on the background
+synchronization of PW A can be found in the study done byBehl and Raj [10]. This feature is very useful for the followingcases -
+1) Testing can be done as frequently as possible.
+2) Features per test can be narrowed down to 1.3) No requirement for testing updates from third-party stores.
+D. Easier A/B testing
+A/B testing is an important method for the development
+of any product. A/B testing helps reduce errors, ﬁnd the bestideas and reduce guesswork early in the product development
+cycle. Such experiments are done by many large companies
+on a routine basis. PW As are far easier to test than nativeapplications. For example, if a certain feature needs to beA/B tested, then only that webpage can be modiﬁed intotwo versions, instead of making two versions of the entireapplication. This modular approach makes the addition of
+new features as well as A/B testing cost and time-effective.
+Building a PW A is similar to building a web application andchanges can be easily performed. This makes it easier for A/Btesting
+E. Low size
+In the case of prototypes, the brand image is not fully set up.
+Due to the uncertain feature set and large scope of errors in thetesting phase, it is likely that users have not fully subscribedto the product. In such cases, if the application is consuming
+3
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:42:13 UTC from IEEE Xplore.  Restrictions apply. T ABLE III
+SIZE COMP ARISON OF PW A AND NA TIVE APPLICA TIONS
+Name PW A Native
+Pinterest 1.6 MB 25 MB
+Twitter 252 KB 32 MB
+Facebook 33 KB 69 MB
+Flipcart 370 KB 18 MB
+Amazon 325 KB 57 MB
+Telegram 325 KB 29 MB
+a large amount of space in their devices, users may uninstall
+the applications. However, a PW A takes a very less amount ofstorage space in the application. This is ideal for users who
+do not have data or storage to download the application. Acomparison between the download size of PW As and theirnative versions can be seen in table IV -E.
+F . Lesser loading time
+PW As are faster than native applications [2]. Due to the
+transition from server-side to client-side as well as cachinginformation, the loading speed for the application is drastically
+reduced, thus providing a seamless experience to the users. In
+a startup scenario where there are multiple competitors andno brand name, reducing the time latency in users is critical.Lesser loading time leads to more user retention and morerevenue. According to a case study, every additional second
+of page load time resulted in 15-20% lower revenue and sales.By reducing this load time, Orange Polska S.A. was able to
+convert 52% better by optimizing its PW A [9] This is trueeven for the prototyping of the product. Consider the scenariowhere users are installing a new application which they havenever heard of before. The reduction of friction between users
+and the application in such cases will increase the usageof the application. According to a case study, Tinder PW Aincreased the usage of the application when compared to anative application [9].
+G. No third-party stores required
+PW As can be directly installed from the browser. This is
+advantageous as the app can be tested on real users withouthaving to launch the application on the Apple app store orGoogle Play store. Currently, the App Store requires an annual
+fee of $99, accompanied by a long waiting time till theapplication gets accepted.
+However, the most advantageous beneﬁt of this feature is
+that the users are not required to be redirected to the storesto install an application. This makes the cost of attractingconsumers to their mobile website becomes substantially lowerthan the cost of driving app downloads. Convincing users toinstall a PW A directly from a browser is simpler for the usersthan forcing them to go through the app store. App storescan distract users from the ﬂow due to network downloadissues and large download times. App stores also providealternative options to users which may include competitors.These disadvantages are prominent for startup applicationswhere getting the user to use the application is of utmostimportance. On the other hand, by using the PW A application,
+the time of the user does not get wasted. The PW A runs onthe browser directly before installation, thus enabling the userto use the application before installation. Installation of theapplication and usage can occur simultaneously unlike nativeapplications which need to be installed ﬁrst before usage.According to a case study, the number of transactions forMishiPay increased 10 times by cutting the installation steprequired for native applications [9]. The process of nativeapplication installation is explained in the ﬂowchart IV -G andthe PW A installation process is explained in ﬂowchart IV -G.
+Fig. 3. Steps to install Native application
+Fig. 4. Steps to install PW A
+4
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:42:13 UTC from IEEE Xplore.  Restrictions apply. H. Other Advantages
+1) PWAs are Discoverable: PW As are easier to discover
+than native applications through mobile browsers. This isuseful for scaling users after testing of idea.
+2) Lesser Skill set required: PW As require the same set as
+web development. PW As can be built using HTML, CSS andJavascript. This reduces the cost of hiring. The 2022 surveyfor commonly used language among professional developersby stack exchange [8] shows 67.9% responses for Javascript54.93% HTML and 40.08% for typescript. This is very highwhen compared to 33.4% for Java 9.92% for Kotlin, 6.67%for Dart and 5.18% for Swift.
+3) Lesser Mobile Fragmentation: Native mobile applica-
+tions running on different versions of operating systems makesnative application development costly. This can be avoided inthe testing phase by using progressive web applications. PW As
+are affected by fragmentation to a lesser extent when compared
+to native applications [3].
+V. A
+DV ANT AGES OF PW A OVER WEB APPS
+There are many case studies that describe how companies
+beneﬁtted by converting their web applications to PWas.
+Goibibo improved its conversion rate by 60% by converting itsmobile application to a PW A. Blibli improved its revenue by10x by providing PW A for its’ returning users. Nikkei saw 2.3xmore organic trafﬁc accompanied by 58% more conversions.Apart from these, many other enterprises like Infobae, voot
+have beneﬁted from the conversion. In this section, we describe
+the advantages of PW A over web applications for new producttesting. All these case studies are available at the Web.devwebsite [9].
+A. Instability
+PW As look like Native apps on the app screen. This has the
+following advantages- Provides access point - The Icon in theapp screen is an easy way to access the application users do
+not have to go to the webpage.1) Reminds users - Acts as a constant reminder to use the app.This is not present in Web applications.2) Notiﬁcation remainder in the icon - The number of noti-
+ﬁcations of the application is clearly visible on the app icon
+attracting users’ attention in case of any notiﬁcation.3) Application-like feel - there is very little difference betweenthe feel of native applications and PW As for the users. Thisis not present for mobile applications.Currently, Android devices support the ‘add to home screen’feature for any website. However, PW As provide advantageslike custom icons on the home screen, default names, notiﬁca-tion icons and splash screens. One example of this is Rakuten24. As a new service, Rakuten 24 increased its performanceby 450% through the use of PW A. One of the key factors
+involved in this was its installability [9].
+B. Visibility on Google Play Store
+PW As can also be visible on Google Play Store. This is
+useful in the later stages of testing when the applicationhas been opened to public usage. Users can search for the
+application in the Play Store in a similar manner as any nativeapplication. Moreover, applications are indexed and can alsobe advertised in the Play Store in a similar manner as nativeapplications. Currently, this feature is available only on the
+Microsoft Store and Google Play Store.
+C. Ofﬂine performance
+PW As can Cache data and operate ofﬂine in a method
+similar to Native applications. This is useful for low bandwidthusage. JD.ID improved its mobile conversion rate by 53%with caching strategies, installation, and push notiﬁcations [9].Frequently used data like images or home screen assets canbe cached to make the application usable in ofﬂine mode.
+D. Service workers.
+Service workers are proxy servers that are intermediate
+between web applications, the browser, and the network [7].It is a JavaScript ﬁle which runs separately from the browser.Service workers used in PW As are capable of backgroundprocessing. This ensures an instant and reliable experience forusers, just like native applications. In Twitter PW A, fast userexperience on ﬁrst load and subsequent views enables usersto view and create Tweets as quickly as possible [9].
+VI. E
+XPERIMENT AL RESUL TS
+To validate the research ﬁndings the experimentation
+involved development of A Progressive Web applicationprototype for a university campus application. It involved
+a digital Identity Card Portal for security veriﬁcation at aUniversity that has over 40,000 students. In order to test theworking of the same, a Progressive Web Application wasdeveloped. The following observations were found during thetesting phase.1) Ease of Development - The PW A prototype was
+easily developed by one single student with minimum skillrequirements. The only skill required was HTML and V anillaJS. The prototype was completed in 20 man-hours2) Multiplatform - Single PW A was sufﬁcient for both
+iPhone and Android users. Traditional applications could nothave been tested on real iPhone users. It could also be runfrom any computer system in the campus.3)No Update required - Iterative testing could be easily
+performed due to these features.4)Low size and 5) Lesser Loading time enabled testing
+to be hassle-free on limited bandwidth areas of the campus.Students could use the application in 5-10 seconds only. Onthe other hand, installing a similar mobile application requires2-3 minutes to install. The size of the PW A was only 2Mbwhile a similar mobile application takes 30 MB.6)No APK requirement enabled students to easily access
+the application through QR codes. This enabled easier testingof the application. QR code leading to the website madethe process of usage and downloading much easier than thetraditional process of APK installation followed by usage.This beneﬁt of likability and sharability was one of the most
+5
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:42:13 UTC from IEEE Xplore.  Restrictions apply. profound in the entire process.
+7)Instability Makes it easier for the students to use than a
+website as it can be easily opened directly from the homescreen without much effort.8) Ofﬂine performance enabled students to use the
+application without the requirement of connectivity.
+In the above case study, progressive web applications played
+a vital role in the development of the digital Identity Card Por-tal. The PW A prototype has enabled the testing of the idea intoa small sector of the university. This can be scaled up graduallyand the results of its performance can be incorporated in thefuture versions of the product. A/B testing can be performedeasily on various students to ﬁnd out what they exactly needand improve the product. All of these activities would havetaken more resources in terms on time and computations hadit been a native or a web-only application.
+Based on these experimental experiences, it can be con-
+cluded that PW A provides beneﬁts of both speed of develop-
+ment similar to web applications with interface and featuresof native applications; it can be used for prototyping of nativeapplications before they are built. PW As can be used to createa working model of the ﬁnal product in a smaller time andat a lower cost. It can be used to test and improve ideas
+at varying scales. The PW A approaches are advantageous
+over native applications especially in the scenario of newbrand inceptions and resources are limited. They can betremendously useful like the scenario discussed in the casestudy, where students/more users were responsible for theproduct development. Thus it can be concluded that PW As
+are a very useful tool for bringing any new app-based product
+into the market.
+VII. C
+ONCLUSION AND FUTURE SCOPE
+This paper proposes a new methodology that can speed
+up mobile application-based product testing. It also elaboratesadvantages of PW As over traditional applications as well asweb applications in the context of rapid prototyping. The pro-posed methodology reduces risks and time for ﬁnding product
+market ﬁt. The progressive web applications for testing and
+prototyping of new products can be effectively used to lowerthe risk and failure costs of features in a product at its earlystages. With PW A, the product development, product releaseand testing new features can take place concurrently, thusreducing the initial development costs. This has been made
+possible due to the novel feature of PW As being easier andfaster to develop, cross-platform and easy to deploy. ThusPW As can prove a powerful tool for the rapid development
+of prototypes for especially for start-ups. Instead of investingtime and resources in developing native applications, startupscan now focus on iterating through their ideas at a minimal
+cost.
+The future scope of this study consists of the study of
+scaling of PW A products. V arious methodologies related to thescaling and native app transition phase of PW A prototypes canbe investigated. V arious aspects of non-LEAN methodologycan be studied in the context of PW A applications. A wareness
+of this methodology needs to be done in startups. Lastly,process metrics need to be established for this methodology.
+R
+EFERENCES
+[1] The history of pwa development — the pwa book.
+https://www.divante.com/pwabook/chapter/02-the-history-of-pwas.
+(Accessed on 05/10/2023).
+[2] How fast is pwa? check this pwa demo to ﬁgure it out - tigren.
+https://www.tigren.com/blog/pwa-demo/. (Accessed on 05/10/2023).
+[3] Hybrid, native, and pwas: Testing your mobile apps for compati-
+bility. https://www.browserstack.com/blog/hybrid-native-pwas-testing-
+your-mobile-apps-for-compatibility/. (Accessed on 05/10/2023).
+[4] Progressive web apps. https://sites.google.com/view/progressivewebapps/home.
+(Accessed on 05/10/2023).
+[5] Progressive web apps: Escaping tabs without losing our soul — by
+alex russell — medium. https://medium.com/@slightlylate/progressive-
+apps-escaping-tabs-without-losing-our-soul-3b93a8561955. (Accessedon 05/10/2023).
+[6] Progressive web apps on ios are here — by maximiliano ﬁrtman
+(ﬁrt.dev) — medium. https://medium.com/@ﬁrt/progressive-web-apps-on-ios-are-here-d00430dee3a7. (Accessed on 05/10/2023).
+[7] Service worker api - web apis — mdn. https://developer.mozilla.org/en-
+US/docs/Web/API/Service
+Worker API.(Accessedon 05/10/2023) .
+[8] Stack overﬂow developer survey 2022.
+https://survey.stackoverﬂow.co/2022/most-popular-technologies-
+language-prof. (Accessed on 05/10/2023).
+[9] web.dev. https://web.dev/. (Accessed on 05/10/2023).
+[10] Kashish Behl and Gaurav Raj. Architectural pattern of progressive web
+and background synchronization. In 2018 International Conference on
+Advances in Computing and Communication Engineering (ICACCE) ,
+pages 366–371. IEEE, 2018. doi:10.1109/ICACCE.2018.8441701.
+[11] Andreas Biørn-Hansen, Tim A Majchrzak, and Tor-Morten
+Grønli. Progressive web apps: The possible web-native uniﬁer
+for mobile development. In WEBIST , pages 344–351, 2017.
+doi:10.5220/0006353703440351.
+[12] Andreas Biørn-Hansen, Tim A Majchrzak, and Tor-Morten Grønli.
+Progressive web apps for the uniﬁed development of mobile applica-
+tions. In Web Information Systems and Technologies: 13th International
+Conference, WEBIST 2017, Porto, Portugal, April 25–27, 2017, RevisedSelected Papers 13 , pages 64–86. Springer, 2018. doi:10.1007/978-3-
+319-93527-0
+4.
+[13] Reza Fauzan, Ice Krisnahati, Bima Dinda Nurwibowo, and Della Aulia
+Wibowo. A systematic literature review on progressive web application
+practice and challenges. IPTEK The Journal for Technology and Science ,
+33(1):43–58, 2022. doi:10.12962/j20882033.v33i1.13904.
+[14] Camille Fournier. Comparison of smoothness in progressive web apps
+and mobile applications on android, 2020.
+[15] Bob Frankston. Progressive web apps [bits versus electrons].
+IEEE Consumer Electronics Magazine , 7(2):106–117, 2018.
+doi:10.1109/MCE.2017.2776463.
+[16] Tjarco Kerssens. Applicability of progressive web apps in mobile
+development, 2019.
+[17] Narendra Lama. Providing native experiences in mobile with pwa. 2019.[18] Jiyeon Lee, Hayeon Kim, Junghwan Park, Insik Shin, and Sooel Son.
+Pride and prejudice in progressive web apps: Abusing native app-like
+features in web applications. In Proceedings of the 2018 ACM SIGSAC
+Conference on Computer and Communications Security , pages 1731–
+1746, 2018. doi:10.1145/3243734.3243867.
+[19] Patrick V Mole and PV Mole. Progressive web apps: A novel way for
+cross-platform development. no. September , 2020.
+[20] Dirk-Jan Rensema. The current state of progressive web apps: A study
+on the performance, compatibility, consistency, security and privacy, and
+user and business impact of progressive web apps, 2020.
+[21] Dennis Sheppard and Dennis Sheppard. Beginning progressive web app
+development. 2017. doi:10.1007/978-1-4842-3090-9.
+[22] Sayali Tandel and Abhishek Jamadar. Impact of progressive web
+apps on web app development. International Journal of Innovative
+Research in Science, Engineering and Technology , 7(9):9439–9444,
+2018. doi:10.15680/IJIRSET.2018.0709021.
+6
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:42:13 UTC from IEEE Xplore.  Restrictions apply.;;[1] Amazon Arduino cloud, “Arduin o online”, online: 
+https://create.arduino.cc/, last visit: 15 -02-2021.  
+[2] Microsoft Visual Studio, “Visual Studio Online”, online: 
+https://visualstudio.microsoft.com/pt -br/services/github -codespaces/, last 
+visit: 15 -02-2021.  
+[3] Idera, Inc, “Rad Studio and FireMo nkey Stencils”, online: 
+https://www.embarcadero.com/products/, last visit: 15 -02-2021.  
+[4] Oasis, “Odata”, online: https://www.odata.org, last visit: 15 -02-2021.  
+[5] Oracle, “ORDS”, online: 
+https://www.oracle.com/database/technologies/appdev/rest.html, last 
+visit:  15-02-2021.  
+[6] Facebook, “GraphQL”, online: https://graphql.org/, last visit: 15 -02-
+2021.  
+[7] Netflix, “Falcor”, online: https://netflix.github.io/falcor/, last visit: 15 -02-
+2021.  
+[8] Figma, Adobe XD, Sketch, Pencil Project, InVision, online: figma.com; 
+adobe.com/pr oducts/xd.html; sketch.com/; invisionapp.com; last visit: 
+15-02-2021.  
+[9] CSS frameworks and javascript frameworks, online: materializecss.com; 
+bulma.io; getbootstrap.com; chakra -ui.com; tailwindcss.com; material -
+ui.com; reactstrap.github.io/, last visit: 15 -02-2021.  
+[10] Developer Roadmap, online: roadmap.sh/frontend, last visit: 15 -02-2021  
+[11] Testing tools, online: mochajs.org; chaijs.com; github.com/avajs/ava; 
+jasmine.github.io; jestjs.io; cypress.io; enzymejs.github.io/enzyme, last 
+visit: 15 -02-2021.  
+[12] W3C, “Aria Aut horingPractices”, online: w3.org/TR/wai -aria-
+practices/#TreeView, las visit: 15 -02-2021.  
+[13]  
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:17:46 UTC from IEEE Xplore.  Restrictions apply.;;[1] Lei,  K.,  Ma,  Y.,  &  Tan,  Z.  (2014).  Perf ormance  Comparison  
+and Evaluation of Web Development Technologies in P HP, Python, 
+and  Node.js.  2014  IEEE  17th  International  Con ference  on 
+Computational Science and Engineering. Published. 
+https://doi.org/10.1109/cse.2014.142 
+[2] Miller, C. S., Zheng, J., Connolly, R., & Olagu nju, A. (2013). 
+Keeping up with web development trends. Proceedings  of the 14th 
+Annual ACM SIGITE Conference on Information Technol ogy 
+Education. Published. https://doi.org/10.1145/25122 76.2512309 
+[3] Zakas,    N.    C.    (2013).    The    Evoluti on    of    Web Development 
+for Mobile Devices. Queue, 11(2), 30–39. 
+https://doi.org/10.1145/2436696.2441756 
+[4] Craig, B. W. (n.d.). Evolution of Websites: A Darwinian Tale . WebFX 
+Blog. Retrieved October 4, 2021, from 
+https://www.webfx.com/blog/web-design/evolution-of- websites-a- 
+darwinian-tale/ [5] Web Survey Report 2018 . (n.d.). Node.Js. Retrieved October 4, 2021, 
+from https://nodejs.org/en/user-survey-report/ 
+[6] T.Lance, A.Martin and W.Carey, “Performance Com parison of 
+Dynamic Web Technologies”, ACM SIGMETRICS Performan ce 
+Evaluation Review, Volume 31 Issue 3, December 2003  
+[7] A.Ranjan, R.Kumar, J.Dhar, “A Comparative Study  between 
+Dynamic Web Scripting Languages”, Data Engineering and 
+Management, 2012. 
+[8] J.Hu, S.Mungee, and D.Schmidt, “Techniques for Developing and 
+Measuring High-Performance Web Servers over ATM Net works", 
+Proceedings of IEEE INFOCOM, San Francisco, CA, Mar ch/April 
+1998. 
+[9] S.Tilkov, S.Vinoski, “Node.js: Using JavaScript  to Build 
+HighPerformance Network Programs”, IEEE Internet Co mputing, 
+2010. 
+[10] Arie, D. (2021, May 19). The History of Content Delivery Networks 
+(CDN) . GlobalDots. https://www.globaldots.com/resources/ blog/the- 
+history-of-content-delivery-networks-cdn/ 
+[11] Nix, E. (2018, August 31). The World’s First W eb Site. HISTORY. 
+https://www.history.com/news/the-worlds-first-web-s ite 
+[12] Statista. (2021, April 28). Share of global mo bile website traffic 
+2015–2021. https://www.statista.com/statistics/2771 25/share-of- 
+website-traffic-coming-from-mobile-devices/ 
+[13] Geekbench 5. (2021, October 3). HP HP Laptop 1 4q-cs0xxx-
+Geekbench Browser. 
+https://browser.geekbench.com/v5/cpu/10210650 
+[14] D. P. Singh, P. Kaushik, M. Jain, V. Tiwari an d S. Rajpoot, "Data 
+Storage Security Issues in Cloud Computing," 2021 I nternational 
+Conference on Innovative Practices in Technology an d Management 
+(ICIPTM), 2021, pp. 216-220, doi: 
+10.1109/ICIPTM52218.2021.9388321. 
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:37:21 UTC from IEEE Xplore.  Restrictions apply.;;[1] B. Mansoor, "Chapter 8 - Intranet Security," in 
+Network and System Security (Second Edition) , J. R. 
+Vacca, Ed., ed Boston: Syngress, 2014, pp. 221-258. 
+[2] D. Wichers, "The 2013 OWASP Top 10," in AppSec 
+USA 2013 , 2013. 
+[3] D. Stuttard and M. Pinto, The web application 
+hacker's handbook : discovering and exploiting security flaws . Indianapolis, IN: Wiley Pub, 2008. 
+[4] N. Macia and F. G. Tinetti, "Chapter 29 - Improving 
+Security in Web Sessions: Special Management of Cookies," in Emerging Trends in ICT Security , B. 
+Akhgar and H. R. Arabnia, Eds., ed Boston: Morgan Kaufmann, 2014, pp. 481-491. 
+[5] A. Almaatouq , et al. , "If it looks like a spammer and 
+behaves like a spammer, it must be a spammer: analysis and detection of microblogging spam accounts," International Journal of Information 
+Security, vol. 15, pp. 475-491, 2016. 
+ [6] I. Uusitalo , et al. , "Towards Evaluation of Security 
+Assurance during the Software Development Lifecycle," in Availability, Reliability and Security, 
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:43:03 UTC from IEEE Xplore.  Restrictions apply. 2009. ARES '09. International Conference on , 2009, 
+pp. 817-822. 
+[7] M. Howard and S. Lipner, The security development 
+lifecycle : O'Reilly Media, Incorporated, 2009. 
+[8] W. Enck , et al. , "On lightweight mobile phone 
+application certification," in Proceedings of the 16th 
+ACM conference on Computer and communications security , 2009, pp. 235-245. 
+[9] B. De Win , et al. , "On the secure software 
+development process: CLASP, SDL and Touchpoints compared," Information and Software Technology, 
+vol. 51, pp. 1152-1171, 2009. 
+[10] M. I. P. Salas and E. Martins, "Security Testing 
+Methodology for Vulnerabilities Detection of XSS in Web Services and WS-Security," Electronic Notes in 
+Theoretical Computer Science, vol. 302, pp. 133-154, 
+2014. 
+[11] A. Mourad , et al. , "An aspect-oriented approach for 
+the systematic security hardening of code," Computers & Security, vol. 27, pp. 101-114, 2008. 
+[12] R. Hassan , et al. , "Goal-oriented, b-based formal 
+derivation of security design specifications from security requirements," 2008, pp. 1443-1450. 
+[13] J. Dong , et al. , "Automated verification of security 
+pattern compositions," Information and Software 
+Technology, vol. 52, pp. 274-295, 2010. 
+[14] R. Tissot , et al. , "AB Formal Framework for Security 
+Developments in the Domain of Smart Card Applications," International Federation for 
+Information Processing Digital Library, vol. 278, 
+2010. 
+[15] M. H. Alalfi , et al. , "A verification framework for 
+access control in dynamic web applications," in Proceedings of the 2nd Canadian Conference on Computer Science and Software Engineering , 2009, 
+pp. 109-113. 
+[16] Xiaohong Li, "A Unified Threat Model for Assessing 
+Threat in Web Applications," International Journal 
+of Security and its Applications, vol. 2, 2008. 
+[17] D. Xu , et al. , "Automated security test generation 
+with formal threat models," Dependable and Secure 
+Computing, IEEE Transactions on, vol. 9, pp. 526-
+540, 2012. 
+ [18] R. Kissel , et al. , "SP 800-64 Rev. 2. Security 
+Considerations in the System Development Life Cycle," 2008. 
+[19] C. Mao, "Experiences in security testing for web-
+based applications," presented at the Proceedings of the 2nd International Conference on Interaction Sciences: Information Technology, Culture and Human, Seoul, Korea, 2009. 
+[20] S. Chong , et al. , "Building secure web applications 
+with automatic partitioning," Commun. ACM, vol. 52, 
+pp. 79-87, 2009.  [21] A. Sengupta , et al. ,  vol. 3803 LNCS, ed, 2005, pp. 
+328-331. 
+[22] X. Ge , et al. , "Agile development of secure web 
+applications," 2006, pp. 305-312. 
+[23] A. Hopkins, "Web Application Vulnerability 
+Statistics 2010-2011," 2012. 
+[24] S. Christey , et al. , "CWE/SANS Top 25 most 
+dangerous software errors," ed, 2011. 
+ 
+ 
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:43:03 UTC from IEEE Xplore.  Restrictions apply.;;[1]  A. Pascual, M. R ibera , T. Granollers  and J.L. Coiduras, 
+“Impact of Access ibility Barriers on the Mood of Blind,  
+Low-visio n and Sighted Users”,  Procedia Computer 
+Scien ce, 27, 2014  
+[2]  S. Schm utz, A. Sonder egger a nd J. Sauer, "Effects of  
+Accessible Website Design on Non-Di sabled U sers", 
+Ergonom ics, 61, 5, 2018  
+[3]  M. Campoverde -Mol ina, S. Lu jan-Mor a and L. V. Garc ia, 
+"Empirica l Studies  on Web Accessibility of Educational Websites: A Sy stematic L iterature Review", IEEE Access, 
+8, 2020 
+[4]  D . Miranda and J. Ara ujo, "St udying Industry P ractices of 
+Accessibility Requirements in Agile Development", 
+ACM/SI GAP P Sym posium on Applied Computing , 2022  
+[5]  M.  Cruz-Portilla, J.C. Perez-Arriaga, J. O. Ocharan-
+Hernandez and A .J. Sanche z-Garc ia, "Accessibil ity in the 
+Software Developm ent Life Cycl e: A Systematic 
+Liter ature Review ", International Confe rence in Software 
+Engine ering Resear ch and In novation , 2021 
+[6]  A. Bai, V. Stray  and H. Mork, "What Metho ds Software 
+Teams P refer  when T esting Web Accessibili ty", Advances 
+in Human-Co mput er Intera ction, 2019 
+[7]  H.L. Ant onell i, S.S. Rodrigues  and W.M. W atanabe, "A  
+Survey on A ccessibility Awareness  of Brazilian Web 
+Developers", International Conference on Soft ware 
+Devel opmen t an d T echnologi es for Enhancing  
+Accessi bility and Fighti ng Info-Exclusion, 2018 
+[8]  T. Bi, X. Xia, D. Lo, J . Grundy, T. Zimmermann and D. 
+Ford, "A ccessib ility in S oftwa re Practice:  A Practitioner 's 
+Perspective", ACM Transactions on Software  Engineering 
+and Me thodology, 31, 4,  2022 
+[9]  Y. Inal, F.  Guribye, D. Rajanen,  M. Rajanen and M . Rost, 
+"Perspectives and Pra ctices of Digital Access ibility: A 
+Survey of Use r Experience  Professiona ls in Nordic 
+Countries", Nordic Conference on Human-Computer 
+Interaction : Shaping Experienc es and Society, 2020 
+[10] H.Y. Abua ddous, Z.J. Mohd and B. N urlida,  "Web 
+Accessibility Challeng es", International Journa l of 
+Advanced Comp uter Science an d Applications , 7, 10, 
+2016 
+[11]  M. Nagaraju , P. Chawla and A. Rana, "A Practition er’s 
+Approach to Asse ss the WC AG 2 .0 Website Ac cessibility 
+Challenges" , Amity Internat ional Conference on Artif icial 
+Intelligence , 2019  
+[12] M . Ku lkarni, "D igital Accessib ility: Challen ges and 
+Opportunities",  IIMB Management Review, 31, 2019 
+[13]  M. Crabb, M. Hero n, R. Jones,  M. Armstrong, H. Reid  and 
+A. Wildson, "Developing Accessibl e Se rvices :  
+Understanding Current Knowl edge and Areas for Fut ure 
+Support", Conference on Human Factors i n Computing 
+Systems , 2019 
+[14]  T . Bi, X. Xi a, D. Lo and  A. A leti, "A F irst Look at 
+Accessib ility Issues in Popular GitHub Projects", 
+International Conferenc e on Software Maintenance and 
+Evolution , 2021  
+[15]  V. Rubano and F. Vitali, "Mak ing Accessibility 
+Accessible: Strategy and Tools", Annual Consu mer 
+Communic ations and Networking Confere nce, 2021 
+[16]  I. N. Ikhsan and M.Z. Catur Candra, "Aut omatically: A n 
+Automated Refactoring Method and Tool for Improving 
+Web  Accessibility ", International Conference on Dat a and 
+Softw are Engine ering, 2018 
+[17]  L. Armas, H. Roja s and R . Renter ia, "Proposa l for an  
+Accessible Software Deve lopment Model", International 
+Conference  of Inclusive Technology and Education, 2020  
+1737
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:40:41 UTC from IEEE Xplore.  Restrictions apply.;;objective of this study is  to sur vey industry practices related  to the 
+them es from that map.   ;;[1] M. J. Khoury et al. , “Current Priorities for Public Health Practice in 
+Addressing the Role of Human Genomics in Improving Population 
+Health,” Am. J. Prev. Med. , vol. 40, no. 4, pp. 486–493, 2011, doi: 
+https://doi.org/10.1016/j.amepre.2010.12.009. 
+[2] J. W. Baurley, C. S. McMahan, C. M. Ervin, B. Pardamean, and A. 
+W. Bergen, “Biosignature Discovery for Substance Use Disorders 
+Using Statistical Learning,” Trends Mol. Med. , vol. 24, no. 2, pp. 221–
+235, 2018, doi: https://doi.org/10.1016/j.molmed.2017.12.008. 
+[3] B. Pardamean, J. W. Baurley, C. I. Pardamean, and J. C. Figueiredo, 
+“Changing colorectal cancer trends in Asians,” Int. J. Colorectal Dis. , 
+vol. 31, no. 8, pp. 1537–1538, 2016, doi: 10.1007/s00384-016-2564-
+z. 
+[4] M. J. Khoury et al. , “From public health genomics to precision public 
+health: A 20-year journey,” Genet. Med. , vol. 20, no. 6, pp. 574–582, 
+2018, doi: 10.1038/gim.2017.211. 
+[5] I. Yusuf et al. , “Genetic risk factors for colorectal cancer in 
+multiethnic Indonesians,” Sci. Rep. , vol. 11, no. 1, p. 9988, 2021, doi: 
+10.1038/s41598-021-88805-4. 
+[6] A. Budiarto, B. Mahesworo, J. Baurley, T. Suparyanto, and B. 
+Pardamean, “Fast and Effective Clustering Method for Ancestry 
+Estimation,” Procedia Comput. Sci. , vol. 157, pp. 306–312, 2019, doi: 
+https://doi.org/10.1016/j.procs.2019.08.171. 
+[7] C. Mcmahan et al. , “A Bayesian hierarchical model for identifying significant polygenic effects while controlling for confounding and 
+repeated measures,” Stat. Appl. Genet. Mol. Biol. , vol. 16, no. 5–6, pp. 
+407–419, 2017, doi: https://doi.org/10.1515/sagmb-2017-0044. 
+[8] C. Joyner, C. McMahan, J. Baurley, and B. Pardamean, “A two-phase 
+Bayesian methodology for the analysis of binary phenotypes in 
+genome-wide association studies,” Biometrical J. , vol. 62, no. 1, pp. 
+191–201, Jan. 2020, doi: 10.1002/bimj.201900050. 
+[9] M. J. Khoury et al. , “Multilevel research and the challenges of 
+implementing genomic medicine,” J. Natl. Cancer Inst. - Monogr. , 
+vol. 1, no. 44, pp. 112–120, 2012, doi: 
+10.1093/jncimonographs/lgs003. 
+[10] Leslie Pray, “DTC Genetic Testing: 23andme, DNA Direct and 
+Genelex,” Nat. Educ. , vol. 1, no. 1, p. 22, 2008, [Online]. Available: 
+https://www.nature.com/scitable/topicpage/dtc-genetic-testing-
+23andme-dna-direct-and-674/. 
+[11] “Direct-to-Consumer Genomic Testing,” National Human Genome 
+Research Institiute , 2020. https://www.genome.gov/dna-day/15-
+ways/direct-to-consumer-genomic-testing (accessed Aug. 11, 2020). 
+[12] “What are the benefits and risks of direct-to-consumer genetic 
+testing?,” 2020. 
+https://ghr.nlm.nih.gov/primer/dtcgenetictesting/dtcrisksbenefits 
+(accessed Aug. 12, 2020). 
+[13] S. E. Wallace and L. J. H. Bean, “Resources for Genetics 
+Professionals — Direct-to-Consumer Genetic Testing,” GeneReviews 
+[Internet], 2019. https://www.ncbi.nlm.nih.gov/books/NBK542335/ 
+(accessed Aug. 12, 2020). 
+[14] L. Du and S. I. Becher, “Genetic and Genomic Consultation: Are We 
+Ready for Direct-to-Consumer Telegenetics?,” Front. Genet. , vol. 9, 
+no. December, pp. 1–8, 2018, doi: 10.3389/fgene.2018.00550. 
+[15] “Genetics Indonesia Official Website.” 
+https://geneticsindonesia.com/ (accessed Aug. 19, 2020). 
+[16] J. W. Baurley, A. S. Perbangsa, A. Subagyo, and B. Pardamean, “A 
+Web Application and Database for Agriculture Genetic Diversity and 
+Association Studies,” Int. J. Bio-Science Bio-Technology , vol. 5, no. 
+6, pp. 33–42, 2013, doi: 10.14257/ijbsbt.2013.5.6.04. 
+[17] J. W. Baurley, A. Budiarto, M. F. Kacamarga, and B. Pardamean, “A 
+Web Portal for Rice Crop Improvements,” Int. J. Web Portals, vol. 
+10, no. 2, pp. 15–31, 2018, doi: 10.4018/IJWP.2018070102. 
+[18] B. Pardamean, J. W. Baurley, A. S. Perbangsa, D. Utami, H. Rijzaani, 
+and D. Satyawan, “Information technology infrastructure for 
+agriculture genotyping studies,” J. Inf. Process. Syst. , vol. 14, no. 3, 
+pp. 655–665, 2018, doi: 10.3745/JIPS.01.0029. 
+[19] M. F. Kacamarga, A. Budiarto, and B. Pardamean, “A Platform for 
+Electronic Health Record Sharing in Environments with Scarce 
+Resource Using Cloud Computing,” Int. J. Online Biomed. Eng. , vol. 
+16, no. 9, pp. 63–76, 2020, doi: 
+https://doi.org/10.3991/ijoe.v16i09.13187. 
+[20] B. Pardamean, T. Utama, and D. R. Fadilah, “Model of Human 
+Resources for Health Information Systems,” in 2015 2nd 
+International Conference on Information Technology, Computer, and 
+Electrical Engineering (ICITACEE) , 2015, pp. 20–25, doi: 
+10.1109/ICITACEE.2015.7437763. 
+[21] B. Pardamean, K. A. Wibisono, and H. S. Halim, “Nutrition 
+Management and Diet Monitoring Information System,” Res. J. Appl. 
+Sci., vol. 9, no. 7, pp. 412–417, 2014, doi: 
+10.36478/rjasci.2014.412.417. 
+[22] B. Pardamean, Anindito, A. Djoeang, and N. Tobing, “Disease 
+Management Information System,” Am. J. Appl. Sci. , vol. 10, no. 7 
+SE-Research Article, Jul. 2013, doi: 10.3844/ajassp.2013.724.733. 
+[23] Anindito, B. Pardamean, R. Christian, and B. S. Abbas, “Expert-
+system Based Medical Stroke Prevention,” J. Comput. Sci. , vol. 9, no. 
+9 SE-Research Article, Aug. 2013, doi: 
+10.3844/jcssp.2013.1099.1105. 
+[24] H. H. Muljo, B. Pardamean, and A. S. Perbangsa, “The 
+Implementation of Online Learning for Early Detection of Cervical 
+Cancer,” J. Comput. Sci. , vol. 13, no. 11, pp. 600–607, 2017, doi: 
+https://doi.org/10.3844/jcssp.2017.600.607. 
+[25] H. H. Muljo, A. S. Perbangsa, and B. Pardamean, “Assessment of 
+Online Learning Application for Health Education,” Int. J. o , vol. 15, 
+no. 12, pp. 69–80, 2019. 
+[26] H. H. Muljo, A. S. Perbangsa, Yulius, and B. Pardamean, “Mobile 
+learning for early detection cancer,” Int. J. Interact. Mob. Technol. , 
+vol. 12, no. 2, 2018, doi: https://doi.org/10.3991/ijim.v12i2.7814. 
+[27] J. F. R. Román, C. Iñiguez-Jarrín, and Ó. P. López, “GenesLove.Me: 
+A model-based web-Application for direct-To-consumer genetic 
+tests,” ENASE 2017 - Proc. 12th Int. Conf. Eval. Nov. Approaches to 
+Softw. Eng. , no. Enase, pp. 133–143, 2017, doi: 
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:41:07 UTC from IEEE Xplore.  Restrictions apply. 10.5220/0006340201330143. 
+[28] M. Ruckenstein, “Keeping data alive: talking DTC genetic testing,” 
+Inf. Commun. Soc. , vol. 20, no. 7, pp. 1024–1039, 2017, doi: 
+10.1080/1369118X.2016.1203975. 
+[29] H. Willever-Farr, L. Zach, and A. Forte, “Tell me about my family: A 
+study of cooperative research on ancestry.com,” ACM Int. Conf. 
+Proceeding Ser. , no. February, pp. 303–310, 2012, doi: 
+10.1145/2132176.2132215. 
+[30] Y. Leau, W. K. Loo, W. Y. Tham, and S. F. Tan, “Software 
+Development Life Cycle AGILE vs Traditional Approaches,” in 2012 
+International Conference on Information and Network Technology 
+(ICINT 2012) , 2012, vol. 37, no. Icint, pp. 162–167. 
+[31] A. Budiarto et al. , “SMARTD Web-Based Monitoring and Evaluation 
+System,” in 2018 Indonesian Association for Pattern Recognition 
+International Conference (INAPR) , Sep. 2018, pp. 172–176, doi: 
+10.1109/INAPR.2018.8627034. 
+[32] “SDLC - Waterfall Model,” 2020. https://www.tutorialspoint.com/sdlc/sdlc_waterfall_model.htm 
+(accessed Aug. 19, 2020). 
+[33] K. Schwaber and M. Beedle, Agile Software Development with Scrum , 
+Int. ed. Pearson Education (US), 2008. 
+[34] H. H. Muljo, A. S. Perbangsa, Yulius, and B. Pardamean, “Improving 
+Early Cancer Detection Knowledge through Mobile Learning 
+Application,” Int. J. Online Biomed. Eng. , vol. 15, no. 2, pp. 60–70, 
+2019, doi: https://doi.org/10.3991/ijoe.v15i02.9678. 
+[35] “Agile Development, Wireframes, and User Stories,” WDI Singapore . 
+https://wdi-sg.github.io/gitbook-2018/01-workflow/user-stories-
+wireframing/readme.html (accessed Aug. 19, 2020). 
+[36] S. Gibbons, “Design Thinking 101,” Nielsen Norman Group , 2016. 
+https://www.nngroup.com/articles/design-thinking/ (accessed Aug. 
+19, 2020). 
+ 
+ 
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:41:07 UTC from IEEE Xplore.  Restrictions apply.;;[1] T. G. Lewis, F. Handloser, S. Bose, and S. Yang, “Prototypes from
+standard user interface management systems,” Computer, vol. 22, no. 5,
+pp. 51–60, 1989.
+[2] J. M. Rivero, J. Grigera, G. Rossi, E. R. Luna, F. Montero, and
+M. Gaedke, “Mockup-driven development: providing agile support for
+model-driven web engineering,” Information and Software Technology,
+vol. 56, no. 6, pp. 670–687, 2014.
+[3] J. Zhang and J.-Y . Chung, “Mockup-driven fast-prototyping
+methodology for web application development,” Software Practice &
+Experience Journal, 33 (13), 2003, pp., vol. 33, no. 13, 2003.
+[4] N. Koch, S. Meliá-Beigbeder, N. Moreno-Vergara,
+V . Pelechano-Ferragud, F. Sánchez-Figueroa, and J. Vara-Mesa,
+“Model-driven web engineering,” Upgrade-Novática Journal (English
+and Spanish), Council of European Professional Informatics Societies
+(CEPIS) IX, vol. 2, pp. 40–45, 2008.
+[5] G. Rossi, Ó. Pastor, D. Schwabe, and L. Olsina, Web engineering:
+modelling and implementing web applications. Springer Science &
+Business Media, 2007.
+[6] K. Khatter and A. Kalia, “Integration of non-functional requirements in
+model-driven architecture,” Fifth International Conference on Advances
+in Recent Technologies in Communication and Computing, 2013.
+[7] D. Ameller, X. Franch, and J. Cabot, “Dealing with non-functional
+requirements in model-driven development,” in Requirements
+Engineering Conference (RE), 2010 18th IEEE International. IEEE,
+2010, pp. 189–198.
+[8] M. Völter, T. Stahl, J. Bettin, A. Haase, and S. Helsen, Model-driven
+software development: technology, engineering, management. John
+Wiley & Sons, 2013.
+[9] D. C. Schmidt, “Model-driven engineering,” COMPUTER-IEEE
+COMPUTER SOCIETY-, vol. 39, no. 2, p. 25, 2006.
+[10] J. L. H. Agustin, “Model-driven web applications,” in Science and
+Information Conference (SAI), 2015. IEEE, 2015, pp. 954–964.
+[11] W. Schwinger, W. Retschitzegger, A. Schauerhuber, G. Kappel,
+M. Wimmer, B. Pröll, C. Cachero Castro, S. Casteleyn, O. De Troyer,
+P. Fraternali et al., “A survey on web modeling approaches for ubiquitous
+web applications,” International Journal of Web Information Systems,
+vol. 4, no. 3, pp. 234–305, 2008.
+[12] J. A. Hincapié Londoño and J. F. Duitama, “Model-driven web
+engineering methods: a literature review,” Revista Facultad de Ingeniería
+Universidad de Antioquia, no. 63, pp. 69–81, 2012.
+[13] R. C. Martin, Agile software development: principles, patterns, and
+practices. Prentice Hall PTR, 2003.
+[14] S. W. Ambler, The object primer: Agile model-driven development with
+UML 2.0. Cambridge University Press, 2004.
+[15] G. Alpaslan and O. Kalıpsız, “Model driven web application
+development with agile practices,” International Journal of Software
+Engineering & Applications, Vol.7, No.5, 2016.
+[16] A. Homrighausen, H.-W. Six, and M. Winter, “Round-trip prototyping
+based on integrated functional and user interface requirements
+speciﬁcations,” Requirements Engineering, vol. 7, no. 1, pp. 34–45,
+2002.
+[17] N. Koch, A. Kraus, C. Cachero, and S. Meliá, “Integration of business
+processes in web application models,” J. Web Eng., vol. 3, no. 1, pp.
+22–49, 2004.
+[18] P. Gupta, R. Mata-Toledo, and M. Monger, “Utilizing asp. net mvc in
+web development courses,” Journal of Computing Sciences in Colleges,
+vol. 27, no. 3, pp. 10–14, 2012.
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:37:57 UTC from IEEE Xplore.  Restrictions apply.;;1. Agile development: An overview; 
+http://www.richappsconsulting.com/blog/blog-detail/agile-
+development- an-overview/; Retrieved 9th April, 2013. 
+2. Campbell-Kelly, Martin; Aspray, William (1996), ―Computer: A 
+History of the Information Machine‖ ; New York: Basic 
+Books. ISBN 0-465-02990-6. 
+3. Center of online learning, research and service. 
+http://www.uis.edu/colrs/learning/technologies/web20/  Retrieved 
+20th May, 2013. 
+4. D. Ungar and R.B. Smith; ―Self: The Power of Simplicity‖; Proc. 
+OOPSLA 87, ACM Press, New York, 1987, pp. 227- 242. 
+5. Dieter Blomme, Nico Goeminney, Frank Gielen and Filip De 
+Turck; ―A Two Lay er Approach for Ubiquitous Web Application 
+Development‖; IEEE 2009: Computation World: Future 
+Computing, Service Computation, Cognitive, Adaptive, Content, 
+Patterns. 
+6. Douglas C. Schmidt, Steve Vinoski; ― Object Interconnections: 
+An Introduction to CORBA Mess aging‖; SIGS C++ Report 
+magazine, November/December 1998, column 15. 
+7. Dr. Dobb, The world of software development; 
+http://www.drdobbs.com/; Retrieved 9th April, 2013. 
+8. Eric J. Byrne; Software Reverse Engineering: A Case Study, 
+Software —Practice and Experience; Vol. 21(12), 1349 –1364 
+(December 1991). 
+9. Eun Sook Cho, So0 Dong Kim, Sung Yul Rhew, Sang Duck Lee, 
+Chang Gap Kim; ― Object-Oriented Web Application 
+Architectures and Development Strategies ‖; IEEE 1997. 
+10. F. Ricca; ―Analysis, Testing and Restructuring of Web  
+Applications‖; IEEE ICSM 2004.  
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:42:38 UTC from IEEE Xplore.  Restrictions apply.;;1. Front -end, Back -end, DevOps  vs Full-stack:  A Developers’  Guide  for 
+Founders  and CEOs  [Online].  Available  at: 
+https://www.masterborn.com/blog/Frontend_vs_backend_guide   
+2. Kliushnikov,  I., Fesenko,  H., Kharchenko,  V., Illiashenko,  O. & 
+Morozova,  O. (2021).  UAV  fleet based  accident  monitoring  systems  
+with automatic  battery  replacement  systems:  Algorithms  for justifying  
+composition  and use planning.  International  Journal  of Safety and 
+Security  Engineering,  Vol. 11, No. 4, pp. 319-328. 
+https://doi.org/10.18280/ijsse.110404  
+3. Sun, Y.; Fesenko,  H.; Kharchenko,  V.; Zhong,  L.; Kliushnikov,  I.; 
+Illiashenko,  O.; Morozova,  O. & Sachenko,  A. (2022).  UAV  and IoT-
+Based  Systems  for the Monit oring  of Industrial  Facilities  Using  Digital  
+Twins:  Methodology,  Reliability  Models,  and Application.  Sensors , 
+Vol. 22, 6444.  https://doi.org/10.3390/s22176444  
+4. Maji,  S., Rahtu,  E., Kannala,  J., Blaschko,  M., and Vedaldi,  A. Fine-
+grained  visual  classification  of aircraft.  arXiv  preprint  
+arXiv:1306.5151,  2013.  
+5. He, K., Zhang,  X., Ren, S., and Sun, J. Deep  residual  learning  for image  
+recognition.  CVPR,  pp. 770–778, 2016.  6. Zoph,  B., Vasudevan,  V., Shlens,  J., and Le, Q. V. Learning  
+transferable  archit ectures  for scalable  image  recognition.  CVPR,  2018.  
+7. Kumari,  V., Harirchian,  E., Lahmer,  T., & Rasulzade,  S. (2022).  
+Evaluation  of Machine  Learning  and Web -Based  Process  for Damage  
+Score  Estimation  of Existing  Buildings.  Buildings,  12(5),  578.  
+8. Chollet,  F. Xception:  Deep  learning  with depthwise  separable  
+convolutions.  CVPR,  pp. 1610–02357,  2017.  
+9. Papadonikolaki,  E., Krystallis,  I., & Morgan,  B. (2022).  Digital  
+Technologies  in Built  Environment  Projects:  Review  and Future  
+Directions.  Project  Management  Journal , 87569728211070225.  
+10. Landing  page  [Online].  Available  at: 
+https://mailchimp.com/marketing -glossary/landing -pages/   
+11. About  Joomla!  [Online].  Available  at: https://www.joomla.org/about -
+joomla.html  
+12. GNU  General  Public  License  [Online].  Available  at: 
+https://www.gnu.org/licenses/gpl -3.0.html  
+13. What  Is WordPress?  [Online].  Available  at: 
+https://ithemes.com/tutorials/what -is-wordpress/  
+14. Drupal  – Open  Source  CMS  [Online].  Available  at: 
+https://www.drupal. org/  
+15. Meet  Django  [Online].  Available  at: https://www.djangoproject.com/   
+16. What  is Python  [Online].  Available  at: 
+https://docs.python.org/3/faq/general.html#what -is-python  
+17. Python  Docs  [Online].  Available  at: https://docs.python.org/3/   
+18. A faster  way to build  and share  data apps [Online].  Available  at: 
+https://streamlit.io/  
+19. Node.js  [Online].  Available  at: https://nodejs.org/en/   
+20. DigitalOcean  [Online].  Available  at: https://www.digitalocean.com/   
+21. AWS  [Online].  Available  at: https://aws.amazon.com/   
+22. Google  Cloud  Platform  [Online].  Available  at: 
+https://cloud.google.com/   
+23. Heroku  [Online] . Available  at: https://www.heroku.com  
+24. HTTP  Routing  [Online].  Available  at: 
+https://devcenter.heroku.com/articles/http -routing   
+25. Heroku  vs AWS:  comparative  review  [Online].  Available  at: 
+https://light -it.net/blog/heroku -vs-aws-comparative -review/   
+26. The Impact  of Machine  Learning  on Web  Development  [Online] . 
+Available  at: https://business -review.eu/tech/it/the -impact -of-machine -
+learning -on-web-development -227507   
+27. Tan, M., & Le, Q. (2019,  May).  Efficientnet:  Rethinking  model  scaling  
+for convolutional  neural  network s. In International  conference  on 
+machine  learning  (pp. 6105 -6114).  
+28. Image  classification  via fine-tuning  with EfficientNet  [Online].  
+Available  at: 
+https://keras .io/examples/vision/image_classification_efficientnet_fine
+_tuning/  
+29. Gruner,  Stefan.  On the historical  semantics  of the notion  of software  
+architecture.  TD: The Journal  for Transdisciplinary  Research  in 
+Southern  Africa  10.1 (2014):  37-66. 
+30. GitHub  repository  [Online].  Available  at: 
+https://github.com/Singlefig/diploma -repo 
+ 
+ 
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:36:52 UTC from IEEE Xplore.  Restrictions apply.;;[1] Fowler, M., & Foemmel, M , “Continu ous Integration ”,2006, Martin 
+Fowler.  
+[2] DuVall, P., Matyas, S., & Glover, A ,“Continuous Integration in Agile 
+Teams ”,2007, Addison -Wesley Professional.  
+[3] Farley, D., & Humble, J ,“Continuous Delivery: Reliable Software 
+Releases through Build, Test, and Deployment Au tomation ”,2010,  
+Addison -Wesley Professional.  
+[4] Cawood, S., & Gerber, A ,”Continuous Integ ration and Deployment 
+for AngularJS and Node. js Applications ”,2015, Springer International 
+Publishing.  
+[5] Joakim Verona , “Jenkins: The Definitive Guide. O'Reilly 
+Media. ”,2011  
+[6] Monk, M. ”Jenkins 2.x Continuous Integration Cookbook ”,2016, Packt 
+Publishing.  
+[7] Stellman, A., & Greene, J. ” Continu ous Integ ration: Improving  
+Software Quality and Reducing Risk ”,2014,  Pearson Education.  
+[8] Smart, J “Continu ous Delivery: Reliable Software Releases throug h 
+Build, Test, and Deployment Au tomation. ”,2011,  Addison -Wesley 
+Professional.  
+[9] Humble, J., & Farl ey, D. “Continuous Delivery: Reliable Software 
+Releases through Build, Test, and Deployment 
+Automation ”,2010, Addison -Wesley Professional.  
+[10] Smart, J., & Ferguson, I. ”Jenkins 2: Up and Running. ”,2020,  O'Reilly 
+Media.  
+[11] Gruver, T., & Matyas, T. ”A Practical Guide  to Jenkins: Get Started  
+With Jenkins, Git, and Maven ",2019,  O'Reilly Media.  
+[12] Quick, R., & Davis, A. ”Jenkins X: Continuous Delivery with 
+Kubernetes ”,2020, O'Reilly Media.  
+[13] Silvia Puglisi, Maria Teresa Vlachopoulou, Domenico Amalfitano, & 
+Porfirio Tramontana. “Evaluation of Jenkins Plugins for Integration of 
+Testing Tools in CI/CD Processes ”,2020,  IEEE.  
+[14] Newman, S. ”Building Microservices: Designing Fine -Grained  
+Systems ",2017, O'Reilly Media.  
+[15] Chambers, D., Harris, I., & Köhler, S ,“Jenkins, The Ultimate 
+Guide”,2020 ,Udemy.   Proceedings of the International Conference on Self Sustainable Artificial Intelligence Systems (ICSSAS 2023)
+IEEE Xplore Part Number: CFP22DN7-ART; ISBN: 979-8-3503-0085-7
+979-8-3503-0085-7/23/$31.00 ©2023 IEEE 756
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:36:35 UTC from IEEE Xplore.  Restrictions apply.;;ve Web Applications, a New Way for
+Faster Testing of Mobile Application Products
+1stAatmaj Mhatre
+Dept. Computer Science
+K.J. Somaiya College of Engineering
+Vidyavihar , India
+https://orcid.org/0009-0006-0795-07132ndSwati Mali
+Dept. Computer Science
+K.J. Somaiya College of Engineering
+Vidyavihar , India
+https://orcid.org/0009-0004-6055-4010
+Abstract —Progressive Web application (PW A) is a rapidly
+emerging technology that aims to provide an intermediate be-tween native applications and web applications. PW As provide
+certain advantages over traditional web applications, making
+them easier and faster to build compared to native applications.This paper discusses the PW A methodology, its advantages,and applications in detail. It also compares PW A with nativeand website application developments and presents PW A as aneffective method for rapid prototyping. This study uses an app
+developed for security guards at a university for identiﬁcation
+and veriﬁcation purposes to support the claims and demonstratethe strengths of PW A.
+Index T erms —Progressive Web applications, product develop-
+ment, user testing, mobile application development, entrepreneur-
+ship, software development lifecycle
+I. I NTRODUCTION
+The traditional method of launching a mobile-based appli-
+cation into the market uses native applications. The nativeapplications are available on the App Store or Play Storeand are installed on devices for development and testingpurposes. However, application development using any nativeapplication requires a considerable amount of cost and time.Many startups do not possess that many resources and thusface delays in product delivery processes. The ProgressiveApp Development (PW A) approach is a great boon in suchscenarios, as the time and effort required to build a PW Aare less when compared to a native application. In essence,a PW A is a web interface with an appearance and behavior
+similar to a native mobile app that can be used for application
+development. The PW As also greatly support rapid prototyp-ing. A Rapid prototype is a small-scale working prototypeof the project in hand that can be used for user testing andconcept validation. Such a prototype must be cost-effective,
+fast and easy to modify. Such prototyping allows startups to
+fail early. Rather than investing time and effort into buildinga native application and then failing, making a PW A rapidprototype is very cost and time-efﬁcient. Moreover, PW As areeasier to change than native apps and hence can be used forA/B testing in the early stages of product development. Thus
+the most costly process of building a the ﬁnal product can beshielded from requirements change by using PW As for rapid
+prototyping and testing.
+As PW A is still an emerging domain of research, the
+paper aims at providing an overview of the methodology,compare it with traditional development approaches and give
+a experimental analysis of advantages with application devel-opment with PW A. The claims in this study are supported andvalidated using an application developed using PW A that aimsat identiﬁcation and veriﬁcations of students at the securitygates of a university campus.
+The paper is organized as follows: Section I introduces the
+paper. Section II describes the literature survey of progressiveweb applications. Section III offers a new methodology thatreduces the time required for testing of mobile applicationsusing PW As. Section IV describes the advantages of PW As
+over Native applications in the context of rapid prototyping,
+while section V describes its advantages over web applications.Section VI presents the experimental results of PW A testingtesting and ﬁnally, section VII concludes the paper.
+II. L
+ITERA TURE SURVEY
+Researchers have been studying and practising more ef-
+fective ways of software development. PW A is one of thestrong candidates of such studies. The PW A concept was ﬁrstintroduced by Google in 2015. Since then, PW A developmenthas been rapidly gaining popularity [5] [1]. It is considered an
+emerging technology with tremendous potential in the future.
+PW As can be cached easily and increase user engagement[21]. Some popular PW As include Uber, Spotify and Flipcart[9]. PW As are especially beneﬁcial for startup enterprises.Many studies have been carried out on PW As that comparethem against traditional native or web applications. Biørn-Hansen and others [11] [12] have scrutinized and comparedPW As against cross-platform app development approaches.They have tested various types of applications for performancewith the help of two case studies. Tandel and Jamadar [22]have discussed the impact of PW A on web development. Theyhave compared the features provided by Naive applications,general applications and PW As. Mole [19] reviewed the dif-ferent issues and challenges in cross-platform developmentand its applications, discussed the approaches that may resolvethese issues and discussed how the PW A addressed the issues.Lee and others [18] have studied the security and privacy ofPW As. They have identiﬁed security and design ﬂaws in PW Adevelopment. Fournier [14] has compared the performanceof PW A and native applications in terms of smoothness,memory and CPU usage. The results of the study implied that2023 3rd Asian Conference on Innovation in Technology (ASIANCON) 
+Pune, India. Aug 25-27, 2023
+979-8-3503-0228-8/23/$31.00 ©2023 IEEE 12023 3rd Asian Conference on Innovation in Technology (ASIANCON) | 979-8-3503-0228-8/23/$31.00 ©2023 IEEE | DOI: 10.1109/ASIANCON58793.2023.10269806
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:42:13 UTC from IEEE Xplore.  Restrictions apply. T ABLE I
+COMP ARISON AMONG NA TIVE ,W EBSITE AND PW A
+Native Website PW A
+Ofﬂine yes No yes
+Push notiﬁcation yes No yes
+Mobile speciﬁc yes No yes
+Home screen access yes No yes
+No download No yes yes
+No marketplace No yes yes
+Linkeble and Sharable No yes yes
+Low data No yes yes
+No updates No yes yes
+PW A, though they have great beneﬁts, were not as smooth
+as Mobile applications on Android. Frankston [15] exploredvarious aspects of PW As. Recently, Fauzan and others [13]have provided a literature review on PW As.
+PW A development has been discussed in various project re-
+views and theses. Rensema [20] has explained various aspectsof PW A development like compatibility, performance, security,privacy, and user/business impact along with use cases. Lama[17] has discussed the technical details of PW A development
+including core tech, design, tools, and technologies. Kerssens[16] has studied the difference in the performance of PW Aswith native and traditional web applications. They have shownthat the performance and energy consumption of a PW Ais at least similar or even slightly better when compared
+to the traditional approaches of Native and Web in mobile
+development. A summary of all the observations of the studies
+can be found in table ??.
+V arious sources on the internet provide useful information
+on Progressive web applications. Web.dev [9] provides variouscase studies on PW A development. Google’s PW A website [4]
+also provides various resources for PW A development. In this
+study, we aim to utilize PW A for rapid testing of ideas fornew products. To our knowledge, there has been no previousstudy on this speciﬁc topic.
+III. P
+ROPOSED METHODOLOGY
+In this section, we propose a methodology for the testing
+of a mobile application product.
+The most expensive and time-consuming stage of mobile
+app development is the production stage. Building any featurein the native mobile application requires time. The feature hasto go through stages like development, testing and deployment.However, in the early stages of product development, manyideas fail. This means that if a feature that has been builtdoes not become a success, all time and resources are wasted.PW As can help to minimize this risk of wastage by providinglow-cost testable prototypes of the features. The developmentof a feature in PW A is cheaper when compared to nativeapplications. If new features are built ﬁrst using PW As, theycan be tested on real users. Moreover, multiple variants of thesame idea can be A/B tested on PW A applications in a veryeasy manner. This testing can be done across all platformson real users. If the feature idea fails, only a small amountof effort is lost. If the idea is a success, then the samefeature can be built on native applications. The time taken
+to build this feature on the native application can be used totest new features in PW A in parallel. This way ensures theminimization of failure risk. The ﬂowchart above shows theprocess using PW A. The same methodology can be appliedto the initial prototype development and ideation process. Theprocess without PW A is shown in ﬁgure III. The methodologyproposed is shown in ﬁgure III.
+Fig. 1. Methodology without PW A
+IV . A DV ANT AGES OF PW A OVER NA TIVE APPS
+PW As have numerous advantages. Many of them have been
+discussed in detail by many references [11] [17] [19] [5]. In
+this section, only the advantages of PW A that are relevant tothe context of Rapid prototyping are discussed.
+A. Ease of development
+PW As are seen as a uniﬁer between native and web applica-
+tions [11]. Since a progressive web application is built usingthe same tools as websites, thus providing compatibility withits web app versions [5]. Almost every web application can be
+easily converted into a PW A. Recent conversions of web apps
+to PW A for desktops include Y ouTube, Google Drive, Twitter,and Facebook.
+PW As can be built using the exact same tools as any other
+web application. This provides the following advantages in thecontext of startups -
+2
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:42:13 UTC from IEEE Xplore.  Restrictions apply. Fig. 2. Proposed methodology with PW A
+1) This makes the development process faster.
+2) Less cost of development.3) Less talent is required than native application builders.4) Ease of development provides lesser training time.
+B. Multiplatform
+One of the most important advantages of PW A for startup
+enterprises is the lesser overhead of development across
+various platforms. The write-once-use-anywhere beneﬁt ofPW As drastically reduces the cost of development, testing andmaintenance.
+1) Operating systems compatibility: PW As can be conﬁg-
+ured to be installed on any mobile device as well as desktop.Both IOS [6] and Android systems support PW As in varyingcapabilities. PW A can be installed on Macintosh systems(OSX), Windows OS, and Linux OS variants as well as canbe run through all supported browsers. This power of PW Amakes it a popular choice for various applications that needto be run on mobile as well as desktop [5]. PW As can runon almost all major operating systems and devices includingAndroid and IOS mobiles, Ipads, and Chrome Books.
+The table IV -B1 summarizes the features provided by PW As
+on different platforms. This multiplatform feature makes test-ing across users with various devices easier. Currently, only
+Flutter is the most popular framework with the multiplatformfeature.T ABLE II
+COMP A TIBILITY OF PW A ACROSS MOBILE FRAMEWORKS .
+Feature Android - Google IOS - Safari
+Web Push Notiﬁcations Available Not Available
+Ofﬂine Browsing Available Available
+Background Synchronization Available Not Available
+App launching screen Available Not Available
+Add to the home screen Available Available
+Bluetooth Available Not Available
+Geolocation Available Available
+Geofencing Not Available Not Available
+Image Capture Available Available
+Video Capture Available Available
+Host on Store Available Available
+2) Browser compatibility: Chromium-based browsers pro-
+vide support for PW A on all devices except iOS and iPadOS.As of now, iOS and iPadOS users have to use Safari forinstalling web applications. Firefox does not support PW Aexcept for partial support for Android devices.
+C. No Update is required
+In the case of native applications, users have to be bothered
+again and again to update the application. This prevents theapplication from making small and numerous test cycles.Except for Over The Air (OT A) updates, other updates needto be veriﬁed by Google or Apple before they can be im-plemented. This further restricts the time to market for rapid
+test cycles. All this can be reduced by using PW As whichdo not need frequent explicit updates. PW As can synchronizeand update in the background. More details on the background
+synchronization of PW A can be found in the study done byBehl and Raj [10]. This feature is very useful for the followingcases -
+1) Testing can be done as frequently as possible.
+2) Features per test can be narrowed down to 1.3) No requirement for testing updates from third-party stores.
+D. Easier A/B testing
+A/B testing is an important method for the development
+of any product. A/B testing helps reduce errors, ﬁnd the bestideas and reduce guesswork early in the product development
+cycle. Such experiments are done by many large companies
+on a routine basis. PW As are far easier to test than nativeapplications. For example, if a certain feature needs to beA/B tested, then only that webpage can be modiﬁed intotwo versions, instead of making two versions of the entireapplication. This modular approach makes the addition of
+new features as well as A/B testing cost and time-effective.
+Building a PW A is similar to building a web application andchanges can be easily performed. This makes it easier for A/Btesting
+E. Low size
+In the case of prototypes, the brand image is not fully set up.
+Due to the uncertain feature set and large scope of errors in thetesting phase, it is likely that users have not fully subscribedto the product. In such cases, if the application is consuming
+3
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:42:13 UTC from IEEE Xplore.  Restrictions apply. T ABLE III
+SIZE COMP ARISON OF PW A AND NA TIVE APPLICA TIONS
+Name PW A Native
+Pinterest 1.6 MB 25 MB
+Twitter 252 KB 32 MB
+Facebook 33 KB 69 MB
+Flipcart 370 KB 18 MB
+Amazon 325 KB 57 MB
+Telegram 325 KB 29 MB
+a large amount of space in their devices, users may uninstall
+the applications. However, a PW A takes a very less amount ofstorage space in the application. This is ideal for users who
+do not have data or storage to download the application. Acomparison between the download size of PW As and theirnative versions can be seen in table IV -E.
+F . Lesser loading time
+PW As are faster than native applications [2]. Due to the
+transition from server-side to client-side as well as cachinginformation, the loading speed for the application is drastically
+reduced, thus providing a seamless experience to the users. In
+a startup scenario where there are multiple competitors andno brand name, reducing the time latency in users is critical.Lesser loading time leads to more user retention and morerevenue. According to a case study, every additional second
+of page load time resulted in 15-20% lower revenue and sales.By reducing this load time, Orange Polska S.A. was able to
+convert 52% better by optimizing its PW A [9] This is trueeven for the prototyping of the product. Consider the scenariowhere users are installing a new application which they havenever heard of before. The reduction of friction between users
+and the application in such cases will increase the usageof the application. According to a case study, Tinder PW Aincreased the usage of the application when compared to anative application [9].
+G. No third-party stores required
+PW As can be directly installed from the browser. This is
+advantageous as the app can be tested on real users withouthaving to launch the application on the Apple app store orGoogle Play store. Currently, the App Store requires an annual
+fee of $99, accompanied by a long waiting time till theapplication gets accepted.
+However, the most advantageous beneﬁt of this feature is
+that the users are not required to be redirected to the storesto install an application. This makes the cost of attractingconsumers to their mobile website becomes substantially lowerthan the cost of driving app downloads. Convincing users toinstall a PW A directly from a browser is simpler for the usersthan forcing them to go through the app store. App storescan distract users from the ﬂow due to network downloadissues and large download times. App stores also providealternative options to users which may include competitors.These disadvantages are prominent for startup applicationswhere getting the user to use the application is of utmostimportance. On the other hand, by using the PW A application,
+the time of the user does not get wasted. The PW A runs onthe browser directly before installation, thus enabling the userto use the application before installation. Installation of theapplication and usage can occur simultaneously unlike nativeapplications which need to be installed ﬁrst before usage.According to a case study, the number of transactions forMishiPay increased 10 times by cutting the installation steprequired for native applications [9]. The process of nativeapplication installation is explained in the ﬂowchart IV -G andthe PW A installation process is explained in ﬂowchart IV -G.
+Fig. 3. Steps to install Native application
+Fig. 4. Steps to install PW A
+4
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:42:13 UTC from IEEE Xplore.  Restrictions apply. H. Other Advantages
+1) PWAs are Discoverable: PW As are easier to discover
+than native applications through mobile browsers. This isuseful for scaling users after testing of idea.
+2) Lesser Skill set required: PW As require the same set as
+web development. PW As can be built using HTML, CSS andJavascript. This reduces the cost of hiring. The 2022 surveyfor commonly used language among professional developersby stack exchange [8] shows 67.9% responses for Javascript54.93% HTML and 40.08% for typescript. This is very highwhen compared to 33.4% for Java 9.92% for Kotlin, 6.67%for Dart and 5.18% for Swift.
+3) Lesser Mobile Fragmentation: Native mobile applica-
+tions running on different versions of operating systems makesnative application development costly. This can be avoided inthe testing phase by using progressive web applications. PW As
+are affected by fragmentation to a lesser extent when compared
+to native applications [3].
+V. A
+DV ANT AGES OF PW A OVER WEB APPS
+There are many case studies that describe how companies
+beneﬁtted by converting their web applications to PWas.
+Goibibo improved its conversion rate by 60% by converting itsmobile application to a PW A. Blibli improved its revenue by10x by providing PW A for its’ returning users. Nikkei saw 2.3xmore organic trafﬁc accompanied by 58% more conversions.Apart from these, many other enterprises like Infobae, voot
+have beneﬁted from the conversion. In this section, we describe
+the advantages of PW A over web applications for new producttesting. All these case studies are available at the Web.devwebsite [9].
+A. Instability
+PW As look like Native apps on the app screen. This has the
+following advantages- Provides access point - The Icon in theapp screen is an easy way to access the application users do
+not have to go to the webpage.1) Reminds users - Acts as a constant reminder to use the app.This is not present in Web applications.2) Notiﬁcation remainder in the icon - The number of noti-
+ﬁcations of the application is clearly visible on the app icon
+attracting users’ attention in case of any notiﬁcation.3) Application-like feel - there is very little difference betweenthe feel of native applications and PW As for the users. Thisis not present for mobile applications.Currently, Android devices support the ‘add to home screen’feature for any website. However, PW As provide advantageslike custom icons on the home screen, default names, notiﬁca-tion icons and splash screens. One example of this is Rakuten24. As a new service, Rakuten 24 increased its performanceby 450% through the use of PW A. One of the key factors
+involved in this was its installability [9].
+B. Visibility on Google Play Store
+PW As can also be visible on Google Play Store. This is
+useful in the later stages of testing when the applicationhas been opened to public usage. Users can search for the
+application in the Play Store in a similar manner as any nativeapplication. Moreover, applications are indexed and can alsobe advertised in the Play Store in a similar manner as nativeapplications. Currently, this feature is available only on the
+Microsoft Store and Google Play Store.
+C. Ofﬂine performance
+PW As can Cache data and operate ofﬂine in a method
+similar to Native applications. This is useful for low bandwidthusage. JD.ID improved its mobile conversion rate by 53%with caching strategies, installation, and push notiﬁcations [9].Frequently used data like images or home screen assets canbe cached to make the application usable in ofﬂine mode.
+D. Service workers.
+Service workers are proxy servers that are intermediate
+between web applications, the browser, and the network [7].It is a JavaScript ﬁle which runs separately from the browser.Service workers used in PW As are capable of backgroundprocessing. This ensures an instant and reliable experience forusers, just like native applications. In Twitter PW A, fast userexperience on ﬁrst load and subsequent views enables usersto view and create Tweets as quickly as possible [9].
+VI. E
+XPERIMENT AL RESUL TS
+To validate the research ﬁndings the experimentation
+involved development of A Progressive Web applicationprototype for a university campus application. It involved
+a digital Identity Card Portal for security veriﬁcation at aUniversity that has over 40,000 students. In order to test theworking of the same, a Progressive Web Application wasdeveloped. The following observations were found during thetesting phase.1) Ease of Development - The PW A prototype was
+easily developed by one single student with minimum skillrequirements. The only skill required was HTML and V anillaJS. The prototype was completed in 20 man-hours2) Multiplatform - Single PW A was sufﬁcient for both
+iPhone and Android users. Traditional applications could nothave been tested on real iPhone users. It could also be runfrom any computer system in the campus.3)No Update required - Iterative testing could be easily
+performed due to these features.4)Low size and 5) Lesser Loading time enabled testing
+to be hassle-free on limited bandwidth areas of the campus.Students could use the application in 5-10 seconds only. Onthe other hand, installing a similar mobile application requires2-3 minutes to install. The size of the PW A was only 2Mbwhile a similar mobile application takes 30 MB.6)No APK requirement enabled students to easily access
+the application through QR codes. This enabled easier testingof the application. QR code leading to the website madethe process of usage and downloading much easier than thetraditional process of APK installation followed by usage.This beneﬁt of likability and sharability was one of the most
+5
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:42:13 UTC from IEEE Xplore.  Restrictions apply. profound in the entire process.
+7)Instability Makes it easier for the students to use than a
+website as it can be easily opened directly from the homescreen without much effort.8) Ofﬂine performance enabled students to use the
+application without the requirement of connectivity.
+In the above case study, progressive web applications played
+a vital role in the development of the digital Identity Card Por-tal. The PW A prototype has enabled the testing of the idea intoa small sector of the university. This can be scaled up graduallyand the results of its performance can be incorporated in thefuture versions of the product. A/B testing can be performedeasily on various students to ﬁnd out what they exactly needand improve the product. All of these activities would havetaken more resources in terms on time and computations hadit been a native or a web-only application.
+Based on these experimental experiences, it can be con-
+cluded that PW A provides beneﬁts of both speed of develop-
+ment similar to web applications with interface and featuresof native applications; it can be used for prototyping of nativeapplications before they are built. PW As can be used to createa working model of the ﬁnal product in a smaller time andat a lower cost. It can be used to test and improve ideas
+at varying scales. The PW A approaches are advantageous
+over native applications especially in the scenario of newbrand inceptions and resources are limited. They can betremendously useful like the scenario discussed in the casestudy, where students/more users were responsible for theproduct development. Thus it can be concluded that PW As
+are a very useful tool for bringing any new app-based product
+into the market.
+VII. C
+ONCLUSION AND FUTURE SCOPE
+This paper proposes a new methodology that can speed
+up mobile application-based product testing. It also elaboratesadvantages of PW As over traditional applications as well asweb applications in the context of rapid prototyping. The pro-posed methodology reduces risks and time for ﬁnding product
+market ﬁt. The progressive web applications for testing and
+prototyping of new products can be effectively used to lowerthe risk and failure costs of features in a product at its earlystages. With PW A, the product development, product releaseand testing new features can take place concurrently, thusreducing the initial development costs. This has been made
+possible due to the novel feature of PW As being easier andfaster to develop, cross-platform and easy to deploy. ThusPW As can prove a powerful tool for the rapid development
+of prototypes for especially for start-ups. Instead of investingtime and resources in developing native applications, startupscan now focus on iterating through their ideas at a minimal
+cost.
+The future scope of this study consists of the study of
+scaling of PW A products. V arious methodologies related to thescaling and native app transition phase of PW A prototypes canbe investigated. V arious aspects of non-LEAN methodologycan be studied in the context of PW A applications. A wareness
+of this methodology needs to be done in startups. Lastly,process metrics need to be established for this methodology.
+R
+EFERENCES
+[1] The history of pwa development — the pwa book.
+https://www.divante.com/pwabook/chapter/02-the-history-of-pwas.
+(Accessed on 05/10/2023).
+[2] How fast is pwa? check this pwa demo to ﬁgure it out - tigren.
+https://www.tigren.com/blog/pwa-demo/. (Accessed on 05/10/2023).
+[3] Hybrid, native, and pwas: Testing your mobile apps for compati-
+bility. https://www.browserstack.com/blog/hybrid-native-pwas-testing-
+your-mobile-apps-for-compatibility/. (Accessed on 05/10/2023).
+[4] Progressive web apps. https://sites.google.com/view/progressivewebapps/home.
+(Accessed on 05/10/2023).
+[5] Progressive web apps: Escaping tabs without losing our soul — by
+alex russell — medium. https://medium.com/@slightlylate/progressive-
+apps-escaping-tabs-without-losing-our-soul-3b93a8561955. (Accessedon 05/10/2023).
+[6] Progressive web apps on ios are here — by maximiliano ﬁrtman
+(ﬁrt.dev) — medium. https://medium.com/@ﬁrt/progressive-web-apps-on-ios-are-here-d00430dee3a7. (Accessed on 05/10/2023).
+[7] Service worker api - web apis — mdn. https://developer.mozilla.org/en-
+US/docs/Web/API/Service
+Worker API.(Accessedon 05/10/2023) .
+[8] Stack overﬂow developer survey 2022.
+https://survey.stackoverﬂow.co/2022/most-popular-technologies-
+language-prof. (Accessed on 05/10/2023).
+[9] web.dev. https://web.dev/. (Accessed on 05/10/2023).
+[10] Kashish Behl and Gaurav Raj. Architectural pattern of progressive web
+and background synchronization. In 2018 International Conference on
+Advances in Computing and Communication Engineering (ICACCE) ,
+pages 366–371. IEEE, 2018. doi:10.1109/ICACCE.2018.8441701.
+[11] Andreas Biørn-Hansen, Tim A Majchrzak, and Tor-Morten
+Grønli. Progressive web apps: The possible web-native uniﬁer
+for mobile development. In WEBIST , pages 344–351, 2017.
+doi:10.5220/0006353703440351.
+[12] Andreas Biørn-Hansen, Tim A Majchrzak, and Tor-Morten Grønli.
+Progressive web apps for the uniﬁed development of mobile applica-
+tions. In Web Information Systems and Technologies: 13th International
+Conference, WEBIST 2017, Porto, Portugal, April 25–27, 2017, RevisedSelected Papers 13 , pages 64–86. Springer, 2018. doi:10.1007/978-3-
+319-93527-0
+4.
+[13] Reza Fauzan, Ice Krisnahati, Bima Dinda Nurwibowo, and Della Aulia
+Wibowo. A systematic literature review on progressive web application
+practice and challenges. IPTEK The Journal for Technology and Science ,
+33(1):43–58, 2022. doi:10.12962/j20882033.v33i1.13904.
+[14] Camille Fournier. Comparison of smoothness in progressive web apps
+and mobile applications on android, 2020.
+[15] Bob Frankston. Progressive web apps [bits versus electrons].
+IEEE Consumer Electronics Magazine , 7(2):106–117, 2018.
+doi:10.1109/MCE.2017.2776463.
+[16] Tjarco Kerssens. Applicability of progressive web apps in mobile
+development, 2019.
+[17] Narendra Lama. Providing native experiences in mobile with pwa. 2019.[18] Jiyeon Lee, Hayeon Kim, Junghwan Park, Insik Shin, and Sooel Son.
+Pride and prejudice in progressive web apps: Abusing native app-like
+features in web applications. In Proceedings of the 2018 ACM SIGSAC
+Conference on Computer and Communications Security , pages 1731–
+1746, 2018. doi:10.1145/3243734.3243867.
+[19] Patrick V Mole and PV Mole. Progressive web apps: A novel way for
+cross-platform development. no. September , 2020.
+[20] Dirk-Jan Rensema. The current state of progressive web apps: A study
+on the performance, compatibility, consistency, security and privacy, and
+user and business impact of progressive web apps, 2020.
+[21] Dennis Sheppard and Dennis Sheppard. Beginning progressive web app
+development. 2017. doi:10.1007/978-1-4842-3090-9.
+[22] Sayali Tandel and Abhishek Jamadar. Impact of progressive web
+apps on web app development. International Journal of Innovative
+Research in Science, Engineering and Technology , 7(9):9439–9444,
+2018. doi:10.15680/IJIRSET.2018.0709021.
+6
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:42:13 UTC from IEEE Xplore.  Restrictions apply.;;[1] Amazon Arduino cloud, “Arduin o online”, online: 
+https://create.arduino.cc/, last visit: 15 -02-2021.  
+[2] Microsoft Visual Studio, “Visual Studio Online”, online: 
+https://visualstudio.microsoft.com/pt -br/services/github -codespaces/, last 
+visit: 15 -02-2021.  
+[3] Idera, Inc, “Rad Studio and FireMo nkey Stencils”, online: 
+https://www.embarcadero.com/products/, last visit: 15 -02-2021.  
+[4] Oasis, “Odata”, online: https://www.odata.org, last visit: 15 -02-2021.  
+[5] Oracle, “ORDS”, online: 
+https://www.oracle.com/database/technologies/appdev/rest.html, last 
+visit:  15-02-2021.  
+[6] Facebook, “GraphQL”, online: https://graphql.org/, last visit: 15 -02-
+2021.  
+[7] Netflix, “Falcor”, online: https://netflix.github.io/falcor/, last visit: 15 -02-
+2021.  
+[8] Figma, Adobe XD, Sketch, Pencil Project, InVision, online: figma.com; 
+adobe.com/pr oducts/xd.html; sketch.com/; invisionapp.com; last visit: 
+15-02-2021.  
+[9] CSS frameworks and javascript frameworks, online: materializecss.com; 
+bulma.io; getbootstrap.com; chakra -ui.com; tailwindcss.com; material -
+ui.com; reactstrap.github.io/, last visit: 15 -02-2021.  
+[10] Developer Roadmap, online: roadmap.sh/frontend, last visit: 15 -02-2021  
+[11] Testing tools, online: mochajs.org; chaijs.com; github.com/avajs/ava; 
+jasmine.github.io; jestjs.io; cypress.io; enzymejs.github.io/enzyme, last 
+visit: 15 -02-2021.  
+[12] W3C, “Aria Aut horingPractices”, online: w3.org/TR/wai -aria-
+practices/#TreeView, las visit: 15 -02-2021.  
+[13]  
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:17:46 UTC from IEEE Xplore.  Restrictions apply.;;[1] Lei,  K.,  Ma,  Y.,  &  Tan,  Z.  (2014).  Perf ormance  Comparison  
+and Evaluation of Web Development Technologies in P HP, Python, 
+and  Node.js.  2014  IEEE  17th  International  Con ference  on 
+Computational Science and Engineering. Published. 
+https://doi.org/10.1109/cse.2014.142 
+[2] Miller, C. S., Zheng, J., Connolly, R., & Olagu nju, A. (2013). 
+Keeping up with web development trends. Proceedings  of the 14th 
+Annual ACM SIGITE Conference on Information Technol ogy 
+Education. Published. https://doi.org/10.1145/25122 76.2512309 
+[3] Zakas,    N.    C.    (2013).    The    Evoluti on    of    Web Development 
+for Mobile Devices. Queue, 11(2), 30–39. 
+https://doi.org/10.1145/2436696.2441756 
+[4] Craig, B. W. (n.d.). Evolution of Websites: A Darwinian Tale . WebFX 
+Blog. Retrieved October 4, 2021, from 
+https://www.webfx.com/blog/web-design/evolution-of- websites-a- 
+darwinian-tale/ [5] Web Survey Report 2018 . (n.d.). Node.Js. Retrieved October 4, 2021, 
+from https://nodejs.org/en/user-survey-report/ 
+[6] T.Lance, A.Martin and W.Carey, “Performance Com parison of 
+Dynamic Web Technologies”, ACM SIGMETRICS Performan ce 
+Evaluation Review, Volume 31 Issue 3, December 2003  
+[7] A.Ranjan, R.Kumar, J.Dhar, “A Comparative Study  between 
+Dynamic Web Scripting Languages”, Data Engineering and 
+Management, 2012. 
+[8] J.Hu, S.Mungee, and D.Schmidt, “Techniques for Developing and 
+Measuring High-Performance Web Servers over ATM Net works", 
+Proceedings of IEEE INFOCOM, San Francisco, CA, Mar ch/April 
+1998. 
+[9] S.Tilkov, S.Vinoski, “Node.js: Using JavaScript  to Build 
+HighPerformance Network Programs”, IEEE Internet Co mputing, 
+2010. 
+[10] Arie, D. (2021, May 19). The History of Content Delivery Networks 
+(CDN) . GlobalDots. https://www.globaldots.com/resources/ blog/the- 
+history-of-content-delivery-networks-cdn/ 
+[11] Nix, E. (2018, August 31). The World’s First W eb Site. HISTORY. 
+https://www.history.com/news/the-worlds-first-web-s ite 
+[12] Statista. (2021, April 28). Share of global mo bile website traffic 
+2015–2021. https://www.statista.com/statistics/2771 25/share-of- 
+website-traffic-coming-from-mobile-devices/ 
+[13] Geekbench 5. (2021, October 3). HP HP Laptop 1 4q-cs0xxx-
+Geekbench Browser. 
+https://browser.geekbench.com/v5/cpu/10210650 
+[14] D. P. Singh, P. Kaushik, M. Jain, V. Tiwari an d S. Rajpoot, "Data 
+Storage Security Issues in Cloud Computing," 2021 I nternational 
+Conference on Innovative Practices in Technology an d Management 
+(ICIPTM), 2021, pp. 216-220, doi: 
+10.1109/ICIPTM52218.2021.9388321. 
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:37:21 UTC from IEEE Xplore.  Restrictions apply.;;[1] B. Mansoor, "Chapter 8 - Intranet Security," in 
+Network and System Security (Second Edition) , J. R. 
+Vacca, Ed., ed Boston: Syngress, 2014, pp. 221-258. 
+[2] D. Wichers, "The 2013 OWASP Top 10," in AppSec 
+USA 2013 , 2013. 
+[3] D. Stuttard and M. Pinto, The web application 
+hacker's handbook : discovering and exploiting security flaws . Indianapolis, IN: Wiley Pub, 2008. 
+[4] N. Macia and F. G. Tinetti, "Chapter 29 - Improving 
+Security in Web Sessions: Special Management of Cookies," in Emerging Trends in ICT Security , B. 
+Akhgar and H. R. Arabnia, Eds., ed Boston: Morgan Kaufmann, 2014, pp. 481-491. 
+[5] A. Almaatouq , et al. , "If it looks like a spammer and 
+behaves like a spammer, it must be a spammer: analysis and detection of microblogging spam accounts," International Journal of Information 
+Security, vol. 15, pp. 475-491, 2016. 
+ [6] I. Uusitalo , et al. , "Towards Evaluation of Security 
+Assurance during the Software Development Lifecycle," in Availability, Reliability and Security, 
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:43:03 UTC from IEEE Xplore.  Restrictions apply. 2009. ARES '09. International Conference on , 2009, 
+pp. 817-822. 
+[7] M. Howard and S. Lipner, The security development 
+lifecycle : O'Reilly Media, Incorporated, 2009. 
+[8] W. Enck , et al. , "On lightweight mobile phone 
+application certification," in Proceedings of the 16th 
+ACM conference on Computer and communications security , 2009, pp. 235-245. 
+[9] B. De Win , et al. , "On the secure software 
+development process: CLASP, SDL and Touchpoints compared," Information and Software Technology, 
+vol. 51, pp. 1152-1171, 2009. 
+[10] M. I. P. Salas and E. Martins, "Security Testing 
+Methodology for Vulnerabilities Detection of XSS in Web Services and WS-Security," Electronic Notes in 
+Theoretical Computer Science, vol. 302, pp. 133-154, 
+2014. 
+[11] A. Mourad , et al. , "An aspect-oriented approach for 
+the systematic security hardening of code," Computers & Security, vol. 27, pp. 101-114, 2008. 
+[12] R. Hassan , et al. , "Goal-oriented, b-based formal 
+derivation of security design specifications from security requirements," 2008, pp. 1443-1450. 
+[13] J. Dong , et al. , "Automated verification of security 
+pattern compositions," Information and Software 
+Technology, vol. 52, pp. 274-295, 2010. 
+[14] R. Tissot , et al. , "AB Formal Framework for Security 
+Developments in the Domain of Smart Card Applications," International Federation for 
+Information Processing Digital Library, vol. 278, 
+2010. 
+[15] M. H. Alalfi , et al. , "A verification framework for 
+access control in dynamic web applications," in Proceedings of the 2nd Canadian Conference on Computer Science and Software Engineering , 2009, 
+pp. 109-113. 
+[16] Xiaohong Li, "A Unified Threat Model for Assessing 
+Threat in Web Applications," International Journal 
+of Security and its Applications, vol. 2, 2008. 
+[17] D. Xu , et al. , "Automated security test generation 
+with formal threat models," Dependable and Secure 
+Computing, IEEE Transactions on, vol. 9, pp. 526-
+540, 2012. 
+ [18] R. Kissel , et al. , "SP 800-64 Rev. 2. Security 
+Considerations in the System Development Life Cycle," 2008. 
+[19] C. Mao, "Experiences in security testing for web-
+based applications," presented at the Proceedings of the 2nd International Conference on Interaction Sciences: Information Technology, Culture and Human, Seoul, Korea, 2009. 
+[20] S. Chong , et al. , "Building secure web applications 
+with automatic partitioning," Commun. ACM, vol. 52, 
+pp. 79-87, 2009.  [21] A. Sengupta , et al. ,  vol. 3803 LNCS, ed, 2005, pp. 
+328-331. 
+[22] X. Ge , et al. , "Agile development of secure web 
+applications," 2006, pp. 305-312. 
+[23] A. Hopkins, "Web Application Vulnerability 
+Statistics 2010-2011," 2012. 
+[24] S. Christey , et al. , "CWE/SANS Top 25 most 
+dangerous software errors," ed, 2011. 
+ 
+ 
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:43:03 UTC from IEEE Xplore.  Restrictions apply.;;[1]  A. Pascual, M. R ibera , T. Granollers  and J.L. Coiduras, 
+“Impact of Access ibility Barriers on the Mood of Blind,  
+Low-visio n and Sighted Users”,  Procedia Computer 
+Scien ce, 27, 2014  
+[2]  S. Schm utz, A. Sonder egger a nd J. Sauer, "Effects of  
+Accessible Website Design on Non-Di sabled U sers", 
+Ergonom ics, 61, 5, 2018  
+[3]  M. Campoverde -Mol ina, S. Lu jan-Mor a and L. V. Garc ia, 
+"Empirica l Studies  on Web Accessibility of Educational Websites: A Sy stematic L iterature Review", IEEE Access, 
+8, 2020 
+[4]  D . Miranda and J. Ara ujo, "St udying Industry P ractices of 
+Accessibility Requirements in Agile Development", 
+ACM/SI GAP P Sym posium on Applied Computing , 2022  
+[5]  M.  Cruz-Portilla, J.C. Perez-Arriaga, J. O. Ocharan-
+Hernandez and A .J. Sanche z-Garc ia, "Accessibil ity in the 
+Software Developm ent Life Cycl e: A Systematic 
+Liter ature Review ", International Confe rence in Software 
+Engine ering Resear ch and In novation , 2021 
+[6]  A. Bai, V. Stray  and H. Mork, "What Metho ds Software 
+Teams P refer  when T esting Web Accessibili ty", Advances 
+in Human-Co mput er Intera ction, 2019 
+[7]  H.L. Ant onell i, S.S. Rodrigues  and W.M. W atanabe, "A  
+Survey on A ccessibility Awareness  of Brazilian Web 
+Developers", International Conference on Soft ware 
+Devel opmen t an d T echnologi es for Enhancing  
+Accessi bility and Fighti ng Info-Exclusion, 2018 
+[8]  T. Bi, X. Xia, D. Lo, J . Grundy, T. Zimmermann and D. 
+Ford, "A ccessib ility in S oftwa re Practice:  A Practitioner 's 
+Perspective", ACM Transactions on Software  Engineering 
+and Me thodology, 31, 4,  2022 
+[9]  Y. Inal, F.  Guribye, D. Rajanen,  M. Rajanen and M . Rost, 
+"Perspectives and Pra ctices of Digital Access ibility: A 
+Survey of Use r Experience  Professiona ls in Nordic 
+Countries", Nordic Conference on Human-Computer 
+Interaction : Shaping Experienc es and Society, 2020 
+[10] H.Y. Abua ddous, Z.J. Mohd and B. N urlida,  "Web 
+Accessibility Challeng es", International Journa l of 
+Advanced Comp uter Science an d Applications , 7, 10, 
+2016 
+[11]  M. Nagaraju , P. Chawla and A. Rana, "A Practition er’s 
+Approach to Asse ss the WC AG 2 .0 Website Ac cessibility 
+Challenges" , Amity Internat ional Conference on Artif icial 
+Intelligence , 2019  
+[12] M . Ku lkarni, "D igital Accessib ility: Challen ges and 
+Opportunities",  IIMB Management Review, 31, 2019 
+[13]  M. Crabb, M. Hero n, R. Jones,  M. Armstrong, H. Reid  and 
+A. Wildson, "Developing Accessibl e Se rvices :  
+Understanding Current Knowl edge and Areas for Fut ure 
+Support", Conference on Human Factors i n Computing 
+Systems , 2019 
+[14]  T . Bi, X. Xi a, D. Lo and  A. A leti, "A F irst Look at 
+Accessib ility Issues in Popular GitHub Projects", 
+International Conferenc e on Software Maintenance and 
+Evolution , 2021  
+[15]  V. Rubano and F. Vitali, "Mak ing Accessibility 
+Accessible: Strategy and Tools", Annual Consu mer 
+Communic ations and Networking Confere nce, 2021 
+[16]  I. N. Ikhsan and M.Z. Catur Candra, "Aut omatically: A n 
+Automated Refactoring Method and Tool for Improving 
+Web  Accessibility ", International Conference on Dat a and 
+Softw are Engine ering, 2018 
+[17]  L. Armas, H. Roja s and R . Renter ia, "Proposa l for an  
+Accessible Software Deve lopment Model", International 
+Conference  of Inclusive Technology and Education, 2020  
+1737
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:40:41 UTC from IEEE Xplore.  Restrictions apply.;;objective of this study is  to sur vey industry practices related  to the 
+them es from that map.   ;;[1] M. J. Khoury et al. , “Current Priorities for Public Health Practice in 
+Addressing the Role of Human Genomics in Improving Population 
+Health,” Am. J. Prev. Med. , vol. 40, no. 4, pp. 486–493, 2011, doi: 
+https://doi.org/10.1016/j.amepre.2010.12.009. 
+[2] J. W. Baurley, C. S. McMahan, C. M. Ervin, B. Pardamean, and A. 
+W. Bergen, “Biosignature Discovery for Substance Use Disorders 
+Using Statistical Learning,” Trends Mol. Med. , vol. 24, no. 2, pp. 221–
+235, 2018, doi: https://doi.org/10.1016/j.molmed.2017.12.008. 
+[3] B. Pardamean, J. W. Baurley, C. I. Pardamean, and J. C. Figueiredo, 
+“Changing colorectal cancer trends in Asians,” Int. J. Colorectal Dis. , 
+vol. 31, no. 8, pp. 1537–1538, 2016, doi: 10.1007/s00384-016-2564-
+z. 
+[4] M. J. Khoury et al. , “From public health genomics to precision public 
+health: A 20-year journey,” Genet. Med. , vol. 20, no. 6, pp. 574–582, 
+2018, doi: 10.1038/gim.2017.211. 
+[5] I. Yusuf et al. , “Genetic risk factors for colorectal cancer in 
+multiethnic Indonesians,” Sci. Rep. , vol. 11, no. 1, p. 9988, 2021, doi: 
+10.1038/s41598-021-88805-4. 
+[6] A. Budiarto, B. Mahesworo, J. Baurley, T. Suparyanto, and B. 
+Pardamean, “Fast and Effective Clustering Method for Ancestry 
+Estimation,” Procedia Comput. Sci. , vol. 157, pp. 306–312, 2019, doi: 
+https://doi.org/10.1016/j.procs.2019.08.171. 
+[7] C. Mcmahan et al. , “A Bayesian hierarchical model for identifying significant polygenic effects while controlling for confounding and 
+repeated measures,” Stat. Appl. Genet. Mol. Biol. , vol. 16, no. 5–6, pp. 
+407–419, 2017, doi: https://doi.org/10.1515/sagmb-2017-0044. 
+[8] C. Joyner, C. McMahan, J. Baurley, and B. Pardamean, “A two-phase 
+Bayesian methodology for the analysis of binary phenotypes in 
+genome-wide association studies,” Biometrical J. , vol. 62, no. 1, pp. 
+191–201, Jan. 2020, doi: 10.1002/bimj.201900050. 
+[9] M. J. Khoury et al. , “Multilevel research and the challenges of 
+implementing genomic medicine,” J. Natl. Cancer Inst. - Monogr. , 
+vol. 1, no. 44, pp. 112–120, 2012, doi: 
+10.1093/jncimonographs/lgs003. 
+[10] Leslie Pray, “DTC Genetic Testing: 23andme, DNA Direct and 
+Genelex,” Nat. Educ. , vol. 1, no. 1, p. 22, 2008, [Online]. Available: 
+https://www.nature.com/scitable/topicpage/dtc-genetic-testing-
+23andme-dna-direct-and-674/. 
+[11] “Direct-to-Consumer Genomic Testing,” National Human Genome 
+Research Institiute , 2020. https://www.genome.gov/dna-day/15-
+ways/direct-to-consumer-genomic-testing (accessed Aug. 11, 2020). 
+[12] “What are the benefits and risks of direct-to-consumer genetic 
+testing?,” 2020. 
+https://ghr.nlm.nih.gov/primer/dtcgenetictesting/dtcrisksbenefits 
+(accessed Aug. 12, 2020). 
+[13] S. E. Wallace and L. J. H. Bean, “Resources for Genetics 
+Professionals — Direct-to-Consumer Genetic Testing,” GeneReviews 
+[Internet], 2019. https://www.ncbi.nlm.nih.gov/books/NBK542335/ 
+(accessed Aug. 12, 2020). 
+[14] L. Du and S. I. Becher, “Genetic and Genomic Consultation: Are We 
+Ready for Direct-to-Consumer Telegenetics?,” Front. Genet. , vol. 9, 
+no. December, pp. 1–8, 2018, doi: 10.3389/fgene.2018.00550. 
+[15] “Genetics Indonesia Official Website.” 
+https://geneticsindonesia.com/ (accessed Aug. 19, 2020). 
+[16] J. W. Baurley, A. S. Perbangsa, A. Subagyo, and B. Pardamean, “A 
+Web Application and Database for Agriculture Genetic Diversity and 
+Association Studies,” Int. J. Bio-Science Bio-Technology , vol. 5, no. 
+6, pp. 33–42, 2013, doi: 10.14257/ijbsbt.2013.5.6.04. 
+[17] J. W. Baurley, A. Budiarto, M. F. Kacamarga, and B. Pardamean, “A 
+Web Portal for Rice Crop Improvements,” Int. J. Web Portals, vol. 
+10, no. 2, pp. 15–31, 2018, doi: 10.4018/IJWP.2018070102. 
+[18] B. Pardamean, J. W. Baurley, A. S. Perbangsa, D. Utami, H. Rijzaani, 
+and D. Satyawan, “Information technology infrastructure for 
+agriculture genotyping studies,” J. Inf. Process. Syst. , vol. 14, no. 3, 
+pp. 655–665, 2018, doi: 10.3745/JIPS.01.0029. 
+[19] M. F. Kacamarga, A. Budiarto, and B. Pardamean, “A Platform for 
+Electronic Health Record Sharing in Environments with Scarce 
+Resource Using Cloud Computing,” Int. J. Online Biomed. Eng. , vol. 
+16, no. 9, pp. 63–76, 2020, doi: 
+https://doi.org/10.3991/ijoe.v16i09.13187. 
+[20] B. Pardamean, T. Utama, and D. R. Fadilah, “Model of Human 
+Resources for Health Information Systems,” in 2015 2nd 
+International Conference on Information Technology, Computer, and 
+Electrical Engineering (ICITACEE) , 2015, pp. 20–25, doi: 
+10.1109/ICITACEE.2015.7437763. 
+[21] B. Pardamean, K. A. Wibisono, and H. S. Halim, “Nutrition 
+Management and Diet Monitoring Information System,” Res. J. Appl. 
+Sci., vol. 9, no. 7, pp. 412–417, 2014, doi: 
+10.36478/rjasci.2014.412.417. 
+[22] B. Pardamean, Anindito, A. Djoeang, and N. Tobing, “Disease 
+Management Information System,” Am. J. Appl. Sci. , vol. 10, no. 7 
+SE-Research Article, Jul. 2013, doi: 10.3844/ajassp.2013.724.733. 
+[23] Anindito, B. Pardamean, R. Christian, and B. S. Abbas, “Expert-
+system Based Medical Stroke Prevention,” J. Comput. Sci. , vol. 9, no. 
+9 SE-Research Article, Aug. 2013, doi: 
+10.3844/jcssp.2013.1099.1105. 
+[24] H. H. Muljo, B. Pardamean, and A. S. Perbangsa, “The 
+Implementation of Online Learning for Early Detection of Cervical 
+Cancer,” J. Comput. Sci. , vol. 13, no. 11, pp. 600–607, 2017, doi: 
+https://doi.org/10.3844/jcssp.2017.600.607. 
+[25] H. H. Muljo, A. S. Perbangsa, and B. Pardamean, “Assessment of 
+Online Learning Application for Health Education,” Int. J. o , vol. 15, 
+no. 12, pp. 69–80, 2019. 
+[26] H. H. Muljo, A. S. Perbangsa, Yulius, and B. Pardamean, “Mobile 
+learning for early detection cancer,” Int. J. Interact. Mob. Technol. , 
+vol. 12, no. 2, 2018, doi: https://doi.org/10.3991/ijim.v12i2.7814. 
+[27] J. F. R. Román, C. Iñiguez-Jarrín, and Ó. P. López, “GenesLove.Me: 
+A model-based web-Application for direct-To-consumer genetic 
+tests,” ENASE 2017 - Proc. 12th Int. Conf. Eval. Nov. Approaches to 
+Softw. Eng. , no. Enase, pp. 133–143, 2017, doi: 
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:41:07 UTC from IEEE Xplore.  Restrictions apply. 10.5220/0006340201330143. 
+[28] M. Ruckenstein, “Keeping data alive: talking DTC genetic testing,” 
+Inf. Commun. Soc. , vol. 20, no. 7, pp. 1024–1039, 2017, doi: 
+10.1080/1369118X.2016.1203975. 
+[29] H. Willever-Farr, L. Zach, and A. Forte, “Tell me about my family: A 
+study of cooperative research on ancestry.com,” ACM Int. Conf. 
+Proceeding Ser. , no. February, pp. 303–310, 2012, doi: 
+10.1145/2132176.2132215. 
+[30] Y. Leau, W. K. Loo, W. Y. Tham, and S. F. Tan, “Software 
+Development Life Cycle AGILE vs Traditional Approaches,” in 2012 
+International Conference on Information and Network Technology 
+(ICINT 2012) , 2012, vol. 37, no. Icint, pp. 162–167. 
+[31] A. Budiarto et al. , “SMARTD Web-Based Monitoring and Evaluation 
+System,” in 2018 Indonesian Association for Pattern Recognition 
+International Conference (INAPR) , Sep. 2018, pp. 172–176, doi: 
+10.1109/INAPR.2018.8627034. 
+[32] “SDLC - Waterfall Model,” 2020. https://www.tutorialspoint.com/sdlc/sdlc_waterfall_model.htm 
+(accessed Aug. 19, 2020). 
+[33] K. Schwaber and M. Beedle, Agile Software Development with Scrum , 
+Int. ed. Pearson Education (US), 2008. 
+[34] H. H. Muljo, A. S. Perbangsa, Yulius, and B. Pardamean, “Improving 
+Early Cancer Detection Knowledge through Mobile Learning 
+Application,” Int. J. Online Biomed. Eng. , vol. 15, no. 2, pp. 60–70, 
+2019, doi: https://doi.org/10.3991/ijoe.v15i02.9678. 
+[35] “Agile Development, Wireframes, and User Stories,” WDI Singapore . 
+https://wdi-sg.github.io/gitbook-2018/01-workflow/user-stories-
+wireframing/readme.html (accessed Aug. 19, 2020). 
+[36] S. Gibbons, “Design Thinking 101,” Nielsen Norman Group , 2016. 
+https://www.nngroup.com/articles/design-thinking/ (accessed Aug. 
+19, 2020). 
+ 
+ 
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:41:07 UTC from IEEE Xplore.  Restrictions apply.;;[1] T. G. Lewis, F. Handloser, S. Bose, and S. Yang, “Prototypes from
+standard user interface management systems,” Computer, vol. 22, no. 5,
+pp. 51–60, 1989.
+[2] J. M. Rivero, J. Grigera, G. Rossi, E. R. Luna, F. Montero, and
+M. Gaedke, “Mockup-driven development: providing agile support for
+model-driven web engineering,” Information and Software Technology,
+vol. 56, no. 6, pp. 670–687, 2014.
+[3] J. Zhang and J.-Y . Chung, “Mockup-driven fast-prototyping
+methodology for web application development,” Software Practice &
+Experience Journal, 33 (13), 2003, pp., vol. 33, no. 13, 2003.
+[4] N. Koch, S. Meliá-Beigbeder, N. Moreno-Vergara,
+V . Pelechano-Ferragud, F. Sánchez-Figueroa, and J. Vara-Mesa,
+“Model-driven web engineering,” Upgrade-Novática Journal (English
+and Spanish), Council of European Professional Informatics Societies
+(CEPIS) IX, vol. 2, pp. 40–45, 2008.
+[5] G. Rossi, Ó. Pastor, D. Schwabe, and L. Olsina, Web engineering:
+modelling and implementing web applications. Springer Science &
+Business Media, 2007.
+[6] K. Khatter and A. Kalia, “Integration of non-functional requirements in
+model-driven architecture,” Fifth International Conference on Advances
+in Recent Technologies in Communication and Computing, 2013.
+[7] D. Ameller, X. Franch, and J. Cabot, “Dealing with non-functional
+requirements in model-driven development,” in Requirements
+Engineering Conference (RE), 2010 18th IEEE International. IEEE,
+2010, pp. 189–198.
+[8] M. Völter, T. Stahl, J. Bettin, A. Haase, and S. Helsen, Model-driven
+software development: technology, engineering, management. John
+Wiley & Sons, 2013.
+[9] D. C. Schmidt, “Model-driven engineering,” COMPUTER-IEEE
+COMPUTER SOCIETY-, vol. 39, no. 2, p. 25, 2006.
+[10] J. L. H. Agustin, “Model-driven web applications,” in Science and
+Information Conference (SAI), 2015. IEEE, 2015, pp. 954–964.
+[11] W. Schwinger, W. Retschitzegger, A. Schauerhuber, G. Kappel,
+M. Wimmer, B. Pröll, C. Cachero Castro, S. Casteleyn, O. De Troyer,
+P. Fraternali et al., “A survey on web modeling approaches for ubiquitous
+web applications,” International Journal of Web Information Systems,
+vol. 4, no. 3, pp. 234–305, 2008.
+[12] J. A. Hincapié Londoño and J. F. Duitama, “Model-driven web
+engineering methods: a literature review,” Revista Facultad de Ingeniería
+Universidad de Antioquia, no. 63, pp. 69–81, 2012.
+[13] R. C. Martin, Agile software development: principles, patterns, and
+practices. Prentice Hall PTR, 2003.
+[14] S. W. Ambler, The object primer: Agile model-driven development with
+UML 2.0. Cambridge University Press, 2004.
+[15] G. Alpaslan and O. Kalıpsız, “Model driven web application
+development with agile practices,” International Journal of Software
+Engineering & Applications, Vol.7, No.5, 2016.
+[16] A. Homrighausen, H.-W. Six, and M. Winter, “Round-trip prototyping
+based on integrated functional and user interface requirements
+speciﬁcations,” Requirements Engineering, vol. 7, no. 1, pp. 34–45,
+2002.
+[17] N. Koch, A. Kraus, C. Cachero, and S. Meliá, “Integration of business
+processes in web application models,” J. Web Eng., vol. 3, no. 1, pp.
+22–49, 2004.
+[18] P. Gupta, R. Mata-Toledo, and M. Monger, “Utilizing asp. net mvc in
+web development courses,” Journal of Computing Sciences in Colleges,
+vol. 27, no. 3, pp. 10–14, 2012.
+Authorized licensed use limited to: UNIVERSIDADE ESTADUAL DE MARINGA. Downloaded on February 21,2024 at 13:37:57 UTC from IEEE Xplore.  Restrictions apply.;;
