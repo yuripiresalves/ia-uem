@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>ArtIGAS</title>
+  </head>
+  <body class="container mx-auto">
+    <!--
+    // v0 by Vercel.
+    // https://v0.dev/t/3scMU74aBBa
+    -->
+    <div class="w-full py-12 space-y-4 md:space-y-8">
+      <div class="container space-y-4 px-4 md:px-6">
+        <form class="flex items-center space-x-4">
+          <a
+            class="flex items-center space-x-2 text-lg font-semibold"
+            href="index.html"
+            ><span class="flex items-center space-x-2"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="w-6 h-6"
+              >
+                <circle cx="11" cy="11" r="8"></circle>
+                <path d="m21 21-4.3-4.3"></path>
+              </svg>
+              ArtIGAS
+            </span>
+          </a>
+
+          <div class="flex-1 min-w-0">
+            <div
+              class="rounded-lg border border-gray-200 bg-white flex items-center space-x-2 p-2 shadow-sm"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="h-4 w-4 text-gray-500 dark:text-gray-400"
+              >
+                <circle cx="11" cy="11" r="8"></circle>
+                <path d="m21 21-4.3-4.3"></path>
+              </svg>
+
+              <input
+                class="flex h-7 w-full rounded-md bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 flex-1 min-w-0"
+                placeholder="Busque artigos"
+                type="search"
+              />
+            </div>
+          </div>
+          <button
+            class="bg-black text-white inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-11 rounded-md px-8"
+          >
+            Buscar
+          </button>
+        </form>
+      </div>
+
+      <div class="divide-y px-4 md:px-6" id="results"></div>
+    </div>
+
+    <script type="module">
+      import results from "./results.json" assert { type: "json" };
+      const resultsEl = document.getElementById("results");
+      const query = new URLSearchParams(window.location.search).get("q");
+      const input = document.querySelector("input");
+
+      document.querySelector("form").addEventListener("submit", (event) => {
+        event.preventDefault();
+        const newQuery = input.value;
+        window.location.href = `search.html?q=${newQuery}`;
+      });
+      input.value = query;
+
+      function search(query) {
+        results.forEach((result) => {
+          if (result.article.toLowerCase().includes(query.toLowerCase())) {
+            resultsEl.innerHTML += `
+              <div class="grid gap-2 py-4">
+                <h1 class="text-xl font-semibold">${result.article}</h1>
+                <a class="text-sm text-blue-600 hover:underline" href="${result.article}">${result.article}</a>
+                <p class="text-sm text-gray-500">${result.objective}</p>
+              </div>
+            `;
+          }
+        });
+      }
+
+      search(query);
+    </script>
+  </body>
+</html>
