@@ -11,18 +11,14 @@ nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('wordnet')
 
+objective = ''
+references = ''
+problem = ''
+    
 results = [
     # {
     #     'article': '',
     #     'objective': '',
-    #     'problem': '',
-    #     'abstract': '',
-    #     'introduction': '',
-    #     'references': ''
-    # },
-    # {
-    #     'article': '',
-    #     'objective': '',    
     #     'problem': '',
     #     'abstract': '',
     #     'introduction': '',
@@ -40,10 +36,13 @@ def write_in_file(text):
         f.write(text + ';;')
 
 def get_references(txt):
-    references = ''
     i = txt.find('REFERENCES')
     references = txt[i+10:].strip()
-    write_in_file(references)
+    return references
+    # print(idx)
+    # results.append({
+    #     'references': references
+    # })
     
 def get_abstract(txt):
     start = txt.find('Abstract')
@@ -65,7 +64,7 @@ def get_introduction(txt):
     else:
         return
     
-def get_objective(txt, idx):
+def get_objective(txt):
     introduction = get_introduction(txt)
     abstract = get_abstract(txt)
     
@@ -94,30 +93,33 @@ def get_objective(txt, idx):
         i = str(introduction).find(word)
         if i != -1:
             objectives.append(introduction[i:i+100])
-            objective = ','.join(objectives)    
+            
+            # objective = ','.join(objectives) 
+            # return objective 
             # write_in_file(objective)
-            results.append({
-                'article': 'article ' + str(idx+1),
-                'objective': objective
-            })
-            write_in_json(results)
+            # results.append({
+            #     # 'article': 'article ' + str(idx+1),
+            #     'objective': objective
+            # })
             # print('INTRODUÇÃO - Objetivo: ' + objective)
         
+    objective = ','.join(objectives)
+    return objective
         
-    for word in key_words:
-        i = str(abstract).find(word)
-        if i != -1:
-            objectives.append(abstract[i:i+100])
-            objective = ','.join(objectives) 
-            results.append({
-                'article': 'article ' + str(idx+1),
-                'objective': objective
-            })   
-            write_in_json(results)
+    # for word in key_words:
+    #     i = str(abstract).find(word)
+    #     if i != -1:
+    #         objectives.append(abstract[i:i+100])
+            # objective = ','.join(objectives) 
+            # return objective
+            # results.append({
+            #     # 'article': 'article ' + str(idx+1),
+            #     'objective': objective
+            # })   
             # write_in_file(objective)
             # print('ABSTRACT - Objetivo: ' + objective)
 
-
+    # print(objectives)
     # i = txt.find('objective')
     # aux = txt[i:i+100]
     # firstDot = aux.find('.')
@@ -129,15 +131,9 @@ def get_objective(txt, idx):
 
 
 def get_problem(txt):
-    start = txt.find('INTRODUCTION')
-    end = txt.find('II.')
 
-    if start != -1 and end != -1:
-        introduction = txt[start+12:end].strip()
-        #print('Introdução: ' + introduction)
-    else:
-        #print('Introdução: Não encontrada')
-        return
+
+    introduction = get_introduction(txt)
     
     key_words = [
         "problem",
@@ -166,14 +162,16 @@ def get_problem(txt):
     problems = []
 
     for word in key_words:
-        i = introduction.find(word)
+        i = str(introduction).find(word)
         if i != -1:
             problems.append(introduction[i:i+100])
-            print('Problema: ' + ','.join(problems))
-        else:
-            break
+            # print('Problema: ' + ','.join(problems))
+            
+    problem = ','.join(problems)
+    return problem
 
 def main():
+   
     # Lendo o arquivo PDF
     path = []
     pdfs = []
@@ -185,17 +183,17 @@ def main():
             pdfs.append(PdfReader(article.path))
 
     for idx, pdf in enumerate(pdfs):
-        print('------------------------------------------------------------')
-        print('Article: ' + path[idx])
+        # print('------------------------------------------------------------')
+        print(f'Extraindo informações do PDF {idx+1} de {len(pdfs)}')
         reader = pdf
         content = ''
 
         for page in reader.pages:
             content += page.extract_text()
 
-        # get_references(content)
-        get_objective(content, idx) # Objective of the article
-        # get_problem(content) # Problem of the article
+        references = get_references(content)
+        objective = get_objective(content) # Objective of the article
+        problem = get_problem(content) # Problem of the article
         
         content = content.split('REFERENCES')[0] #Remove the references from article
         content = content.lower()
@@ -211,6 +209,7 @@ def main():
         # Remoção de stopwords
         stop_words = set(stopwords.words('english'))
         tokens = [word for word in tokens if word.lower() not in stop_words]
+        # print('-------------------------')
         # print(tokens)
 
         # Stemming
@@ -226,19 +225,43 @@ def main():
         # Frequência
 
         freq = nltk.FreqDist(tokens)
+        
+        # results.append({
+        #     'frquency': freq.most_common(10)
+        # })
+        
+        
+        results.append({
+            'article': path[idx],
+            'objective': objective,
+            'problem': problem,
+            # 'abstract': '',
+            # 'introduction': '',
+            'references': references
+        })
+        
+        # results[idx]['article'] = path[idx]
+        # results[idx]['abstract'] = get_abstract(content)
+        # results[idx]['introduction'] = get_introduction(content)
+        # results[idx]['problem'] = get_problem(content)
+        # results[idx]['objective'] = get_objective(content, idx)
+        # results[idx]['frequency'] = freq.most_common(10)
+        
+        
+        
         #print('Frequência de palavras')
         #print(freq.most_common(10))
-        if idx < len(results):
-            results[idx]['article'] = path[idx]
-            # results[idx]['abstract'] = get_abstract(content)
-            # results[idx]['introduction'] = get_introduction(content)
-            # results[idx]['references'] = get_references(content)
-            # results[idx]['problem'] = get_problem(content)
-            # results[idx]['objective'] = get_objective(content, idx)
-            results[idx]['frequencia'] = freq.most_common(10)
-            write_in_json(results)
-        else:
-            print("No result found for index:", idx)
+        # if idx < len(results):
+        #     # results[idx]['article'] = path[idx]
+        #     # results[idx]['abstract'] = get_abstract(content)
+        #     # results[idx]['introduction'] = get_introduction(content)
+        #     # results[idx]['references'] = get_references(content)
+        #     # results[idx]['problem'] = get_problem(content)
+        #     # results[idx]['objective'] = get_objective(content, idx)
+        #     # results[idx]['frequencia'] = freq.most_common(10)
+        #     # write_in_json(results)
+        # else:
+        #     print("No result found for index:", idx)
         #print('-------------------------------------')
         # freq.plot(10, cumulative=False)
 
@@ -247,7 +270,7 @@ def main():
         # print(bigrams)
         freq_bigrams = nltk.FreqDist(bigrams)
         #print('Frequência de bigramas')
-        #print(freq_bigrams.most_common(10))
+        # print(freq_bigrams.most_common(10))
         #print('-------------------------------------')
         # freq_bigrams.plot(10, cumulative=False)
 
@@ -259,5 +282,7 @@ def main():
         #print(freq_trigrams.most_common(10))
         #print('-------------------------------------')
         # freq_trigrams.plot(10, cumulative=False)
+    
+    write_in_json(results)
 
 main()
