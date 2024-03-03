@@ -1,4 +1,5 @@
 import string
+import json
 import os
 
 from pypdf import PdfReader
@@ -14,28 +15,30 @@ nltk.download('wordnet')
 
 documents = []
 results = []
-test = []
+infos = []
 
 def write_in_json(results):
-    import json
     with open('results.json', 'w') as f:
         json.dump(results, f, indent=2)
 
-def write_in_file(text):
-    with open('results.txt', 'a') as f:
-        f.write(text + ';;')
-
-def search_word():
-    search = input('Digite a palavra que deseja buscar: ')
+def search(query):
+    process()
     tokenized_corpus = [doc.split(" ") for doc in documents]
     bm25 = BM25Okapi(tokenized_corpus)
-    query = search.split(" ")
+    query = query.split(" ")
     score = bm25.get_scores(query)
 
     for i in range(len(score)):
-        print(f'Artigo: {test[i]} - Score: {score[i]}')
+        infos[i]['score'] = score[i]
+    
+    filtered_array = [obj for obj in infos if obj['score'] != 0.0]
 
-    exit()
+    ordered_array = sorted(filtered_array, key=lambda obj: obj['score'], reverse=True)
+
+    # for f in range(len(ordered_array)):
+    #     print(f)
+
+    return ordered_array
 
 
 def get_references(txt):
@@ -78,7 +81,7 @@ def get_objective(txt):
 
     key_words = [
         "objective",
-        "purpose",
+        "the purpose",
         "aim",
         "goal",
         "research question",
@@ -132,7 +135,6 @@ def get_methodology(txt):
                 break
 
     return methodology
-
 
 def get_problem(txt):
     introduction = get_introduction(txt)
@@ -188,8 +190,7 @@ def get_contribuition(txt):
             end = aux.find('.')
             contribuitions.append(aux[:end])
 
-def main():
-   
+def process(): 
     # Lendo o arquivo PDF
     path = []
     pdfs = []
@@ -222,7 +223,6 @@ def main():
         text = ''.join([c for c in content if c not in string.punctuation])
 
         documents.append(text)
-        test.append(path[idx])
 
         # Tokenização
         tokens = word_tokenize(text)
@@ -258,8 +258,14 @@ def main():
             'references': references,
             'frequency': frequency
         })
+
+        infos.append({
+            'title': title,
+            'path': path[idx],
+            'objectives': objective,
+            'score': None
+        })
         
-      
         #print('-------------------------------------')
         # freq.plot(10, cumulative=False)
 
@@ -280,8 +286,4 @@ def main():
         #print(freq_trigrams.most_common(10))
         #print('-------------------------------------')
         # freq_trigrams.plot(10, cumulative=False)
-    
     write_in_json(results)
-    search_word()
-
-main()

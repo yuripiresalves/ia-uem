@@ -61,7 +61,7 @@
     </div>
 
     <script type="module">
-      import results from "./results.json" assert { type: "json" };
+      // import results from "./results.json" assert { type: "json" };
       const resultsEl = document.getElementById("results");
       const query = new URLSearchParams(window.location.search).get("q");
       const input = document.querySelector("input");
@@ -69,31 +69,51 @@
       document.querySelector("form").addEventListener("submit", (event) => {
         event.preventDefault();
         const newQuery = input.value;
-        window.location.href = `search.html?q=${newQuery}`;
+        // window.location.href = `search.html?q=${newQuery}`;
       });
       input.value = query;
 
-      function search(query) {
-        results.forEach((result) => {
-          if (result.article.toLowerCase().includes(query.toLowerCase())) {
-            resultsEl.innerHTML += `
-              <div class="grid gap-2 py-4">
-                <h1 class="text-xl font-semibold">${
-                  !result.title || result.title === "untitled"
-                    ? "Titulo não encontrado"
-                    : result.title
-                }</h1>
-                <a class="text-sm text-blue-600 hover:underline" href="${
-                  result.article
-                }">${result.article}</a>
-                <p class="text-sm text-gray-500">${result.objectives}</p>
-              </div>
-            `;
-          }
+      // function search(query) {
+      //   results.forEach((result) => {
+      //     if (result.article.toLowerCase().includes(query.toLowerCase())) {
+      //       resultsEl.innerHTML += `
+      //         <div class="grid gap-2 py-4">
+      //           <h1 class="text-xl font-semibold">${
+      //             !result.title || result.title === "untitled"
+      //               ? "Titulo não encontrado"
+      //               : result.title
+      //           }</h1>
+      //           <a class="text-sm text-blue-600 hover:underline" href="${
+      //             result.article
+      //           }">${result.article}</a>
+      //           <p class="text-sm text-gray-500">${result.objectives}</p>
+      //         </div>
+      //       `;
+      //     }
+      //   });
+      // }
+      function leo() {
+        fetch("http://127.0.0.1:8000/search?q=" + query).then((response) => {
+          console.log(response);
+          // response.json();
         });
+        // .then((data) => {
+        //   console.log(`DATA: ${data}`);
+        //   resultsEl.innerHTML = data
+        //     .map(
+        //       (result) => `
+        //   <div class="grid gap-2 py-4">
+        //     <h1 class="text-xl font-semibold">${result.title}</h1>
+        //     <a class="text-sm text-blue-600 hover:underline" href="${result.article}">${result.article}</a>
+        //     <p class="text-sm text-gray-500">${result.objectives}</p>
+        //   </div>
+        // `
+        //     )
+        //     .join("");
+        // });
       }
-
-      search(query);
+      leo();
+      // search(query);
     </script>
   </body>
 </html>
