@@ -4,27 +4,17 @@ import os
 from pypdf import PdfReader
 import nltk
 from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
+from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.stem.snowball import SnowballStemmer
 from nltk.stem.wordnet import WordNetLemmatizer
+from rank_bm25 import BM25Okapi
 nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('wordnet')
 
-objective = ''
-references = ''
-problem = ''
-    
-results = [
-    # {
-    #     'article': '',
-    #     'objective': '',
-    #     'problem': '',
-    #     'abstract': '',
-    #     'introduction': '',
-    #     'references': ''
-    # }
-]
+documents = []
+results = []
+test = []
 
 def write_in_json(results):
     import json
@@ -35,14 +25,26 @@ def write_in_file(text):
     with open('results.txt', 'a') as f:
         f.write(text + ';;')
 
+def search_word():
+    search = input('Digite a palavra que deseja buscar: ')
+    tokenized_corpus = [doc.split(" ") for doc in documents]
+    bm25 = BM25Okapi(tokenized_corpus)
+    query = search.split(" ")
+    score = bm25.get_scores(query)
+
+    for i in range(len(score)):
+        print(f'Artigo: {test[i]} - Score: {score[i]}')
+
+    exit()
+
+
 def get_references(txt):
     i = txt.find('REFERENCES')
+    if i == -1:
+        i = txt.find('References')
     references = txt[i+10:].strip()
+    
     return references
-    # print(idx)
-    # results.append({
-    #     'references': references
-    # })
     
 def get_abstract(txt):
     start = txt.find('Abstract')
@@ -55,7 +57,9 @@ def get_abstract(txt):
         return
     
 def get_introduction(txt):
-    start = txt.find('INTRODUCTION')
+    start = txt.find('I.')
+    if start == -1:
+        start = txt.lower().find('introduction')
     end = txt.find('II.')
     
     if start != -1 and end != -1:
@@ -63,23 +67,25 @@ def get_introduction(txt):
         return introduction
     else:
         return
-    
+
 def get_objective(txt):
     introduction = get_introduction(txt)
     abstract = get_abstract(txt)
-    
+    method = get_methodology(txt)
+
+    corpus = (abstract + introduction)
+    corpus = sent_tokenize(corpus)
+
     key_words = [
         "objective",
         "purpose",
         "aim",
         "goal",
-        "hypothesis",
         "research question",
         "intention",
         "motivation",
         "rational",
         "investigative goal",
-        "scope",
         "mission",
         "this study",
         "this paper",
@@ -88,76 +94,50 @@ def get_objective(txt):
     ]
 
     objectives = []
-
-    for word in key_words:
-        i = str(introduction).find(word)
-        if i != -1:
-            aux = introduction[i:]
-            end = aux.find('.')
-            objectives.append(introduction[i:i+end])
-            
-            # objective = ','.join(objectives) 
-            # return objective 
-            # write_in_file(objective)
-            # results.append({
-            #     # 'article': 'article ' + str(idx+1),
-            #     'objective': objective
-            # })
-            # print('INTRODUÇÃO - Objetivo: ' + objective)
+    for sentence in corpus:
+        for word in key_words:
+            i = str(sentence).find(word)
+            if i != -1:
+                objectives.append(sentence)
+                break
         
-    objective = ','.join(objectives)
-    return objective
-        
-    # for word in key_words:
-    #     i = str(abstract).find(word)
-    #     if i != -1:
-    #         objectives.append(abstract[i:i+100])
-            # objective = ','.join(objectives) 
-            # return objective
-            # results.append({
-            #     # 'article': 'article ' + str(idx+1),
-            #     'objective': objective
-            # })   
-            # write_in_file(objective)
-            # print('ABSTRACT - Objetivo: ' + objective)
-
-    # print(objectives)
-    # i = txt.find('objective')
-    # aux = txt[i:i+100]
-    # firstDot = aux.find('.')
-    # i2 = aux.find(' is ')
-    #if i != -1:
-    #    print('Objetivo: ' + aux[i2+5:firstDot])
-    #else:
-    #    print('Objetivo: Não encontrado')
+    objective = '|'.join(objectives)
+    return [objective, method]
 
 def get_methodology(txt):
-    methodology = ''
+    corpus = sent_tokenize(txt)
 
-    words = [
+    key_words = [
         'methodology', 
         'methodologies',
         'method', 
         'interviews', 
         'survey', 
-        'content'
-        'analysis'
+        'content',
+        'analysis',
         ]
     
-    for word in words:
-        start = txt.find(word)
-        if start != -1:
-            aux = txt[start:]
-            end = aux.find('.')
-            methodology = txt[start+12:end].strip()
+    methodology = []
+
+    max = 3
+    count = 0
+    
+    for sentence in corpus:
+        for word in key_words:
+            i = str(sentence).find(word)
+            if i != -1:
+                if(count < max):
+                    methodology.append(sentence)
+                    count += 1
+                break
 
     return methodology
 
 
 def get_problem(txt):
-
     introduction = get_introduction(txt)
-    
+    corpus = sent_tokenize(introduction)
+
     key_words = [
         "problem",
         "issue",
@@ -184,18 +164,15 @@ def get_problem(txt):
 
     problems = []
 
-    for word in key_words:
-        i = str(introduction).find(word)
-        if i != -1:
-            problems.append(introduction[i:i+100])
-            # print('Problema: ' + ','.join(problems))
+    for sentence in corpus:
+        for word in key_words:
+            i = str(sentence).find(word)
+            if i != -1:
+                problems.append(sentence)
             
-    problem = ','.join(problems)
-    return problem
+    return problems
 
-def get_contribuition(txt):
-
-    
+def get_contribuition(txt):   
     key_words = [
         "contribution",
         "contribute",
@@ -207,8 +184,9 @@ def get_contribuition(txt):
     for word in key_words:
         i = str(txt).find(word)
         if i != -1:
-            contribuitions.append(txt[i:i+100])
-            # print('Problema: ' + ','.join(problems))
+            aux = txt[i:]
+            end = aux.find('.')
+            contribuitions.append(aux[:end])
 
 def main():
    
@@ -233,21 +211,21 @@ def main():
             content += page.extract_text()
 
         references = get_references(content)
-        objective = get_objective(content) # Objective of the article
-        problem = get_problem(content) # Problem of the article
-        methodology = get_methodology(content)
-        contribuition = get_contribuition(content)
-        
+
         content = content.split('REFERENCES')[0] #Remove the references from article
+    
+        objective, method = get_objective(content) # Objective of the article
+        problem = get_problem(content) # Problem of the article
+        contribuition = get_contribuition(content)
         content = content.lower()
 
-        #exit()
         text = ''.join([c for c in content if c not in string.punctuation])
 
+        documents.append(text)
+        test.append(path[idx])
 
         # Tokenização
         tokens = word_tokenize(text)
-        # print(tokens)
 
         # Remoção de stopwords
         stop_words = set(stopwords.words('english'))
@@ -263,50 +241,25 @@ def main():
         # Lematização
         lemmatizer = WordNetLemmatizer()
         tokens = [lemmatizer.lemmatize(word) for word in tokens]
-        # print(tokens)
-
+        
         # Frequência
-
         freq = nltk.FreqDist(tokens)
-        
-        # results.append({
-        #     'frquency': freq.most_common(10)
-        # })
-        
+        frequency = freq.most_common(10)
         
         results.append({
             'title': title,
             'article': path[idx],
-            'objective': objective,
-            'problem': problem,
-            'methodology': methodology,
+            'objectives': objective,
+            'problems': problem,
+            'methodology': method,
+            'contribuitions': contribuition,
             # 'abstract': '',
             # 'introduction': '',
-            'references': references
+            'references': references,
+            'frequency': frequency
         })
         
-        # results[idx]['article'] = path[idx]
-        # results[idx]['abstract'] = get_abstract(content)
-        # results[idx]['introduction'] = get_introduction(content)
-        # results[idx]['problem'] = get_problem(content)
-        # results[idx]['objective'] = get_objective(content, idx)
-        # results[idx]['frequency'] = freq.most_common(10)
-        
-        
-        
-        #print('Frequência de palavras')
-        #print(freq.most_common(10))
-        # if idx < len(results):
-        #     # results[idx]['article'] = path[idx]
-        #     # results[idx]['abstract'] = get_abstract(content)
-        #     # results[idx]['introduction'] = get_introduction(content)
-        #     # results[idx]['references'] = get_references(content)
-        #     # results[idx]['problem'] = get_problem(content)
-        #     # results[idx]['objective'] = get_objective(content, idx)
-        #     # results[idx]['frequencia'] = freq.most_common(10)
-        #     # write_in_json(results)
-        # else:
-        #     print("No result found for index:", idx)
+      
         #print('-------------------------------------')
         # freq.plot(10, cumulative=False)
 
@@ -329,5 +282,6 @@ def main():
         # freq_trigrams.plot(10, cumulative=False)
     
     write_in_json(results)
+    search_word()
 
 main()
