@@ -92,7 +92,9 @@ def get_objective(txt):
     for word in key_words:
         i = str(introduction).find(word)
         if i != -1:
-            objectives.append(introduction[i:i+100])
+            aux = introduction[i:]
+            end = aux.find('.')
+            objectives.append(introduction[i:i+end])
             
             # objective = ','.join(objectives) 
             # return objective 
@@ -129,9 +131,30 @@ def get_objective(txt):
     #else:
     #    print('Objetivo: Não encontrado')
 
+def get_methodology(txt):
+    methodology = ''
+
+    words = [
+        'methodology', 
+        'methodologies',
+        'method', 
+        'interviews', 
+        'survey', 
+        'content'
+        'analysis'
+        ]
+    
+    for word in words:
+        start = txt.find(word)
+        if start != -1:
+            aux = txt[start:]
+            end = aux.find('.')
+            methodology = txt[start+12:end].strip()
+
+    return methodology
+
 
 def get_problem(txt):
-
 
     introduction = get_introduction(txt)
     
@@ -170,13 +193,30 @@ def get_problem(txt):
     problem = ','.join(problems)
     return problem
 
+def get_contribuition(txt):
+
+    
+    key_words = [
+        "contribution",
+        "contribute",
+        "contributes"
+    ]
+
+    contribuitions = []
+
+    for word in key_words:
+        i = str(txt).find(word)
+        if i != -1:
+            contribuitions.append(txt[i:i+100])
+            # print('Problema: ' + ','.join(problems))
+
 def main():
    
     # Lendo o arquivo PDF
     path = []
     pdfs = []
     
-    articles = os.scandir('artigos/web')
+    articles = os.scandir('2/artigos/web')
     for article in articles:
         if article.is_file():
             path.append(article.path)
@@ -188,17 +228,20 @@ def main():
         reader = pdf
         content = ''
 
+        title = reader.metadata.title
         for page in reader.pages:
             content += page.extract_text()
 
         references = get_references(content)
         objective = get_objective(content) # Objective of the article
         problem = get_problem(content) # Problem of the article
+        methodology = get_methodology(content)
+        contribuition = get_contribuition(content)
         
         content = content.split('REFERENCES')[0] #Remove the references from article
         content = content.lower()
 
-        # exit()
+        #exit()
         text = ''.join([c for c in content if c not in string.punctuation])
 
 
@@ -232,9 +275,11 @@ def main():
         
         
         results.append({
+            'title': title,
             'article': path[idx],
             'objective': objective,
             'problem': problem,
+            'methodology': methodology,
             # 'abstract': '',
             # 'introduction': '',
             'references': references
