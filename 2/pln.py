@@ -101,8 +101,8 @@ def get_objective(txt):
                 objectives.append(sentence)
                 break
         
-    objective = '|'.join(objectives)
-    return [objective, method]
+    # objective = '|'.join(objectives)
+    return [objectives, method]
 
 def get_methodology(txt):
     corpus = sent_tokenize(txt)
@@ -194,7 +194,7 @@ def main():
     path = []
     pdfs = []
     
-    articles = os.scandir('artigos/web')
+    articles = os.scandir('artigos')
     for article in articles:
         if article.is_file():
             path.append(article.path)

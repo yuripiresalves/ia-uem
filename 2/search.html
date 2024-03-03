@@ -78,9 +78,15 @@
           if (result.article.toLowerCase().includes(query.toLowerCase())) {
             resultsEl.innerHTML += `
               <div class="grid gap-2 py-4">
-                <h1 class="text-xl font-semibold">${result.article}</h1>
-                <a class="text-sm text-blue-600 hover:underline" href="${result.article}">${result.article}</a>
-                <p class="text-sm text-gray-500">${result.objective}</p>
+                <h1 class="text-xl font-semibold">${
+                  !result.title || result.title === "untitled"
+                    ? "Titulo não encontrado"
+                    : result.title
+                }</h1>
+                <a class="text-sm text-blue-600 hover:underline" href="${
+                  result.article
+                }">${result.article}</a>
+                <p class="text-sm text-gray-500">${result.objectives}</p>
               </div>
             `;
           }
