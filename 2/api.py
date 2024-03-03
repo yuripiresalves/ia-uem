@@ -19,6 +19,5 @@ app.add_middleware(
 @app.get("/search")
 def get_search_query(q: str):
   response = search(q)
-  
-  
+
   return response

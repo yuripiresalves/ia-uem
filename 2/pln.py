@@ -13,16 +13,16 @@ nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('wordnet')
 
-documents = []
 results = []
-infos = []
+
 
 def write_in_json(results):
     with open('results.json', 'w') as f:
         json.dump(results, f, indent=2)
 
 def search(query):
-    process()
+    infos, documents = process()
+
     tokenized_corpus = [doc.split(" ") for doc in documents]
     bm25 = BM25Okapi(tokenized_corpus)
     query = query.split(" ")
@@ -34,9 +34,6 @@ def search(query):
     filtered_array = [obj for obj in infos if obj['score'] != 0.0]
 
     ordered_array = sorted(filtered_array, key=lambda obj: obj['score'], reverse=True)
-
-    # for f in range(len(ordered_array)):
-    #     print(f)
 
     return ordered_array
 
@@ -194,7 +191,9 @@ def process():
     # Lendo o arquivo PDF
     path = []
     pdfs = []
-    
+    infos = []
+    documents = []
+
     articles = os.scandir('artigos')
     for article in articles:
         if article.is_file():
@@ -287,3 +286,4 @@ def process():
         #print('-------------------------------------')
         # freq_trigrams.plot(10, cumulative=False)
     write_in_json(results)
+    return infos, documents

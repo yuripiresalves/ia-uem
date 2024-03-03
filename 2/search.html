@@ -19,7 +19,8 @@
             class="flex items-center space-x-2 text-lg font-semibold"
             href="index.html"
           >
-            <img src="logo.svg" alt="" class="w-32" />
+            <img src="logo.svg" alt="" class="w-40" />
+            <img src="http://0.academia-photos.com/64174725/27923498/26185529/s200_wagner.igarashi.jpg" alt="" class="w-10 h-10 rounded-full" />
           </a>
 
           <div class="flex-1 min-w-0">
@@ -69,7 +70,7 @@
       document.querySelector("form").addEventListener("submit", (event) => {
         event.preventDefault();
         const newQuery = input.value;
-        // window.location.href = `search.html?q=${newQuery}`;
+        window.location.href = `search.html?q=${newQuery}`;
       });
       input.value = query;
 
@@ -95,22 +96,23 @@
       function leo() {
         fetch("http://127.0.0.1:8000/search?q=" + query).then((response) => {
           console.log(response);
-          // response.json();
-        });
-        // .then((data) => {
-        //   console.log(`DATA: ${data}`);
-        //   resultsEl.innerHTML = data
-        //     .map(
-        //       (result) => `
-        //   <div class="grid gap-2 py-4">
-        //     <h1 class="text-xl font-semibold">${result.title}</h1>
-        //     <a class="text-sm text-blue-600 hover:underline" href="${result.article}">${result.article}</a>
-        //     <p class="text-sm text-gray-500">${result.objectives}</p>
-        //   </div>
-        // `
-        //     )
-        //     .join("");
-        // });
+          response.json().then((data) => {
+            console.log(data);
+            resultsEl.innerHTML = data
+              .map(
+                (result) => `
+            <div class="grid gap-2 py-4">
+              <h1 class="text-xl font-semibold">${!result.title || result.title === "untitled"
+                     ? "Titulo não encontrado"
+                     : result.title} / Score: ${result.score} </h1>
+              <a class="text-sm text-blue-600 hover:underline" target="_blank" href="${result.path}">${result.path}</a>
+              <p class="text-sm text-gray-500">${result.objectives}</p>
+            </div>
+            `
+              )
+            .join("");
+          });
+      });
       }
       leo();
       // search(query);
