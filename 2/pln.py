@@ -216,7 +216,7 @@ def main():
     path = []
     pdfs = []
     
-    articles = os.scandir('2/artigos/web')
+    articles = os.scandir('artigos/web')
     for article in articles:
         if article.is_file():
             path.append(article.path)

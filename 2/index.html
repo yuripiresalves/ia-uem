@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>ArtIGAS</title>
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg" />
+    <title>Artigas</title>
   </head>
   <body class="container mx-auto">
     <!--
@@ -15,9 +16,10 @@
       <header class="py-4 md:py-6">
         <div class="container px-4 flex items-center justify-center">
           <div class="space-y-1">
-            <h1 class="text-2xl font-bold tracking-tighter sm:text-3xl">
+            <!-- <h1 class="text-2xl font-bold tracking-tighter sm:text-3xl">
               ArtIGAS
-            </h1>
+            </h1> -->
+            <img src="logo.svg" alt="" class="w-96" />
           </div>
         </div>
       </header>
@@ -27,7 +29,7 @@
       >
         <div class="flex flex-col gap-2">
           <form
-            class="flex items-center gap-2 rounded-lg bg-gray-100 pl-3 py-1 text-sm"
+            class="flex items-center gap-2 rounded-lg bg-transparent border pl-3 pr-1 py-1 text-sm"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +41,7 @@
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
-              class="w-4 h-4 flex-shrink-0"
+              class="h-4 w-4 text-gray-500 dark:text-gray-400"
             >
               <circle cx="11" cy="11" r="8"></circle>
               <path d="m21 21-4.3-4.3"></path>
@@ -50,7 +52,7 @@
               type="search"
             />
             <button
-              class="inline-flex items-center justify-center whitespace-nowrap text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 rounded-lg font-medium bg-black text-white"
+              class="bg-blue-500 hover:bg-blue-600 text-white inline-flex items-center justify-center whitespace-nowrap text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 rounded-lg font-medium"
               type="submit"
             >
               Buscar
