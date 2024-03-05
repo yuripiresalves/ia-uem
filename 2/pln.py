@@ -14,15 +14,18 @@ nltk.download('punkt')
 nltk.download('wordnet')
 
 results = []
-
+infos = []
+documents = []
+articles_list = []
 
 def write_in_json(results):
     with open('results.json', 'w') as f:
         json.dump(results, f, indent=2)
 
+
 def search(query):
     infos, documents = process()
-
+    
     tokenized_corpus = [doc.split(" ") for doc in documents]
     bm25 = BM25Okapi(tokenized_corpus)
     query = query.split(" ")
@@ -188,20 +191,32 @@ def get_contribuition(txt):
             contribuitions.append(aux[:end])
 
 def process(): 
-    # Lendo o arquivo PDF
+    global infos
+    global documents
+    global articles_list
+    
     path = []
     pdfs = []
-    infos = []
-    documents = []
 
     articles = os.scandir('artigos')
-    for article in articles:
+    new_articles_list = list(articles)
+    
+    for article in new_articles_list:
         if article.is_file():
             path.append(article.path)
             pdfs.append(PdfReader(article.path))
-
+   
+    articles_list_with_quotes = [f'"{entry}"' for entry in articles_list]
+    new_articles_list_with_quotes = [f'"{entry}"' for entry in new_articles_list]
+    
+    if articles_list_with_quotes == new_articles_list_with_quotes:
+        return infos, documents
+    
+    articles_list = new_articles_list
+    documents = []
+    infos = []
+    
     for idx, pdf in enumerate(pdfs):
-        # print('------------------------------------------------------------')
         print(f'Extraindo informações do PDF {idx+1} de {len(pdfs)}')
         reader = pdf
         content = ''
@@ -212,10 +227,10 @@ def process():
 
         references = get_references(content)
 
-        content = content.split('REFERENCES')[0] #Remove the references from article
+        content = content.split('REFERENCES')[0]
     
-        objective, method = get_objective(content) # Objective of the article
-        problem = get_problem(content) # Problem of the article
+        objective, method = get_objective(content) 
+        problem = get_problem(content) 
         contribuition = get_contribuition(content)
         content = content.lower()
 
@@ -229,8 +244,6 @@ def process():
         # Remoção de stopwords
         stop_words = set(stopwords.words('english'))
         tokens = [word for word in tokens if word.lower() not in stop_words]
-        # print('-------------------------')
-        # print(tokens)
 
         # Stemming
         # stemmer = SnowballStemmer('english')
@@ -252,8 +265,6 @@ def process():
             'problems': problem,
             'methodology': method,
             'contribuitions': contribuition,
-            # 'abstract': '',
-            # 'introduction': '',
             'references': references,
             'frequency': frequency
         })
@@ -265,17 +276,13 @@ def process():
             'score': None
         })
         
-        #print('-------------------------------------')
-        # freq.plot(10, cumulative=False)
-
         # # Bigramas
         bigrams = list(nltk.bigrams(tokens))
         # print(bigrams)
         freq_bigrams = nltk.FreqDist(bigrams)
         #print('Frequência de bigramas')
         # print(freq_bigrams.most_common(10))
-        #print('-------------------------------------')
-        # freq_bigrams.plot(10, cumulative=False)
+      
 
         # # Trigramas
         trigrams = list(nltk.trigrams(tokens))
@@ -283,7 +290,7 @@ def process():
         freq_trigrams = nltk.FreqDist(trigrams)
         #print('Frequência de trigramas')
         #print(freq_trigrams.most_common(10))
-        #print('-------------------------------------')
-        # freq_trigrams.plot(10, cumulative=False)
+       
     write_in_json(results)
+    
     return infos, documents

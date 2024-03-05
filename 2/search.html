@@ -7,12 +7,12 @@
     <link rel="shortcut icon" href="favicon.svg" type="image/svg" />
     <title>Artigas</title>
   </head>
-  <body class="container mx-auto">
+  <body class="container mx-auto min-h-screen">
     <!--
     // v0 by Vercel.
     // https://v0.dev/t/3scMU74aBBa
     -->
-    <div class="w-full py-12 space-y-4 md:space-y-8">
+    <div class="w-full h-screen py-12 space-y-4 md:space-y-8">
       <div class="container space-y-4 px-4 md:px-6">
         <form class="flex items-center space-x-4">
           <a
@@ -20,7 +20,11 @@
             href="index.html"
           >
             <img src="logo.svg" alt="" class="w-40" />
-            <img src="http://0.academia-photos.com/64174725/27923498/26185529/s200_wagner.igarashi.jpg" alt="" class="w-10 h-10 rounded-full" />
+            <img
+              src="http://0.academia-photos.com/64174725/27923498/26185529/s200_wagner.igarashi.jpg"
+              alt=""
+              class="w-10 h-10 rounded-full"
+            />
           </a>
 
           <div class="flex-1 min-w-0">
@@ -58,11 +62,10 @@
         </form>
       </div>
 
-      <div class="divide-y px-4 md:px-6" id="results"></div>
+      <div class="divide-y h-3/4 px-4 md:px-6" id="results"></div>
     </div>
 
     <script type="module">
-      // import results from "./results.json" assert { type: "json" };
       const resultsEl = document.getElementById("results");
       const query = new URLSearchParams(window.location.search).get("q");
       const input = document.querySelector("input");
@@ -74,48 +77,91 @@
       });
       input.value = query;
 
-      // function search(query) {
-      //   results.forEach((result) => {
-      //     if (result.article.toLowerCase().includes(query.toLowerCase())) {
-      //       resultsEl.innerHTML += `
-      //         <div class="grid gap-2 py-4">
-      //           <h1 class="text-xl font-semibold">${
-      //             !result.title || result.title === "untitled"
-      //               ? "Titulo não encontrado"
-      //               : result.title
-      //           }</h1>
-      //           <a class="text-sm text-blue-600 hover:underline" href="${
-      //             result.article
-      //           }">${result.article}</a>
-      //           <p class="text-sm text-gray-500">${result.objectives}</p>
-      //         </div>
-      //       `;
-      //     }
-      //   });
-      // }
-      function leo() {
-        fetch("http://127.0.0.1:8000/search?q=" + query).then((response) => {
-          console.log(response);
-          response.json().then((data) => {
-            console.log(data);
-            resultsEl.innerHTML = data
-              .map(
-                (result) => `
-            <div class="grid gap-2 py-4">
-              <h1 class="text-xl font-semibold">${!result.title || result.title === "untitled"
-                     ? "Titulo não encontrado"
-                     : result.title} / Score: ${result.score} </h1>
-              <a class="text-sm text-blue-600 hover:underline" target="_blank" href="${result.path}">${result.path}</a>
-              <p class="text-sm text-gray-500">${result.objectives}</p>
-            </div>
-            `
-              )
-            .join("");
-          });
-      });
+      async function fetchData() {
+        let loading = true;
+
+        if (loading) {
+          resultsEl.innerHTML = `
+          <div class="grid gap-2 py-10 animate-pulse">
+            <h1 class="h-5 w-7/12 bg-gray-200 rounded"></h1>
+            <a class="h-2.5 bg-transparent rounded" target="_blank" href=""></a>
+            <p class="h-2.5 bg-gray-200 rounded w-10/12"></p>
+            <p class="h-2.5 bg-gray-200 rounded"></p>
+          </div>
+          
+          <div class="grid gap-2 py-10 animate-pulse">
+            <h1 class="h-5 w-9/12 bg-gray-200 rounded"></h1>
+            <a class="h-2.5 bg-transparent rounded" target="_blank" href=""></a>
+            <p class="h-2.5 bg-gray-200 rounded w-10/12"></p>
+            <p class="h-2.5 bg-gray-200 rounded"></p>
+            <p class="h-2.5 bg-gray-200 rounded w-11/12"></p>
+            <p class="h-2.5 bg-gray-200 rounded w-9/12"></p>
+          </div>
+
+          <div class="grid gap-2 py-10 animate-pulse">
+            <h1 class="h-5 w-5/12 bg-gray-200 rounded"></h1>
+            <a class="h-2.5 bg-transparent rounded" target="_blank" href=""></a>
+            <p class="h-2.5 bg-gray-200 rounded"></p>
+            <p class="h-2.5 bg-gray-200 rounded w-11/12"></p>
+            <p class="h-2.5 bg-gray-200 rounded w-9/12"></p>
+          </div>
+
+          <div class="grid gap-2 py-10 animate-pulse">
+            <h1 class="h-5 w-7/12 bg-gray-200 rounded"></h1>
+            <a class="h-2.5 bg-transparent rounded" target="_blank" href=""></a>
+            <p class="h-2.5 bg-gray-200 rounded w-10/12"></p>
+            <p class="h-2.5 bg-gray-200 rounded"></p>
+          </div>
+          `;
+        }
+
+        const response = await fetch("http://127.0.0.1:8000/search?q=" + query);
+
+        const data = await response.json();
+
+        if (data.length === 0) {
+          loading = false;
+          return (resultsEl.innerHTML = `
+          <div class="grid place-content-center h-full gap-2 py-4">
+            <h1 class="text-xl font-semibold flex items-center gap-4">
+              <img src="404.svg" alt="" class="w-20 rotate-12" />
+              Nenhum resultado encontrado
+            </h1>
+          </div>
+          `);
+        }
+
+        resultsEl.innerHTML = data
+          .map(
+            (result) => `
+          <div class="grid gap-2 py-4">
+            <h1 class="text-xl font-semibold"><a href="./details.html?article=${result.path
+              .split("/")
+              .pop()}">
+              ${
+                !result.title || result.title === "untitled"
+                  ? "Titulo não encontrado"
+                  : result.title
+              } <span class="text-sm font-normal text-gray-400">bm25 score: ${result.score.toFixed(
+              2
+            )}</span>  
+            </a></h1>
+            <a class="text-sm text-blue-600 hover:underline" target="_blank" href="${
+              result.path
+            }">${result.path}</a>
+
+            <a class="text-sm text-gray-500" href="./details.html?article=${result.path
+              .split("/")
+              .pop()}">
+              <p >${result.objectives}</p>
+            </a>
+          </div>
+          `
+          )
+          .join("");
       }
-      leo();
-      // search(query);
+
+      fetchData();
     </script>
   </body>
 </html>

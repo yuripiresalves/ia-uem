@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pln import search
+import json
 
 app = FastAPI()
 
@@ -19,5 +20,14 @@ app.add_middleware(
 @app.get("/search")
 def get_search_query(q: str):
   response = search(q)
-
+  
   return response
+
+@app.get("/search/{article}")
+def get_search_article(article: str):
+    with open("results.json", "r") as f:
+        data = json.load(f)
+
+    result = [obj for obj in data if obj['article'].split("/")[1] == article]
+  
+    return result
