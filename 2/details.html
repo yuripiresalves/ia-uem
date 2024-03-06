@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="shortcut icon" href="favicon.svg" type="image/svg" />
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/svg" />
     <title>Artigas</title>
   </head>
   <body class="container mx-auto min-h-screen">
@@ -15,7 +15,7 @@
             class="flex items-center space-x-2 text-lg font-semibold"
             href="index.html"
           >
-            <img src="logo.svg" alt="" class="w-40" />
+            <img src="images/logo.svg" alt="Artigas" class="w-40" />
             <img
               src="http://0.academia-photos.com/64174725/27923498/26185529/s200_wagner.igarashi.jpg"
               alt=""
@@ -96,34 +96,49 @@
               data.objectives.length > 0
                 ? `<div class="flex flex-col gap-4 py-4">
                 <h2 class="text-xl font-semibold">Objetivo</h2>
-                <p class="leading-relaxed">${data.objectives}</p>
+                <div>
+                  ${data.objectives.map(
+                    (objective) => `<p class="leading-relaxed">${objective}</p>`
+                  )}
+                </div>
               </div>`
                 : ""
             }
 
             ${
-              data.methodology &&
-              `<div class="flex flex-col gap-4 py-4">
+              data.methodology.length > 0
+                ? `<div class="flex flex-col gap-4 py-4">
                 <h2 class="text-xl font-semibold">Metodologia</h2>
-                <p class="leading-relaxed">${data.methodology}</p>
+                <div>
+                  ${data.methodology.map(
+                    (methodology) =>
+                      `<p class="leading-relaxed">${methodology}</p>`
+                  )}  
+                </div>
               </div>`
+                : ""
             }
 
             ${
-              data.problems &&
-              `
+              data.problems.length > 0
+                ? `
               <div class="flex flex-col gap-4 py-4">
-                <h2 class="text-xl font-semibold">Problemas</h2>
-                <p class="leading-relaxed">${data.problems}</p>
+                <h2 class="text-xl font-semibold">Problema</h2>
+                <div>
+                  ${data.problems.map(
+                    (problem) => `<p class="leading-relaxed">${problem}</p>`
+                  )}
+                </div>
               </div>
               `
+                : ""
             }
 
             ${
               data.contribuitions
                 ? `
               <div class="flex flex-col gap-4 py-4">
-                <h2 class="text-xl font-semibold">Contribuições</h2>
+                <h2 class="text-xl font-semibold">Contribuição</h2>
                 <p class="leading-relaxed">${data.contribuitions}</p>
               </div>
               `
@@ -131,7 +146,7 @@
             }
 
             <div class="flex flex-col gap-4 py-4">
-              <h2 class="text-xl font-semibold">Frequência</h2>
+              <h2 class="text-xl font-semibold">10 termos mais citados</h2>
               <p class="leading-relaxed">${JSON.stringify(
                 data.frequency,
                 null,
@@ -140,8 +155,29 @@
             </div>
 
             <div class="flex flex-col gap-4 py-4">
+              <h2 class="text-xl font-semibold">10 bigramas mais citados</h2>
+              <p class="leading-relaxed">${JSON.stringify(
+                data.bigrams,
+                null,
+                2
+              )}</p>
+            </div>
+
+            <div class="flex flex-col gap-4 py-4">
+              <h2 class="text-xl font-semibold">10 trigramas mais citados</h2>
+              <p class="leading-relaxed">${JSON.stringify(
+                data.trigrams,
+                null,
+                2
+              )}</p>
+            </div>
+
+            <div class="flex flex-col gap-4 py-4">
               <h2 class="text-xl font-semibold">Referências</h2>
-              <p class="leading-relaxed">${data.references}</p>
+              <p class="leading-relaxed">${data.references.replace(
+                "\n",
+                "<br>"
+              )}</p>
             </div>
           `;
         });

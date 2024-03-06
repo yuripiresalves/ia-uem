@@ -74,7 +74,6 @@ def get_introduction(txt):
 def get_objective(txt):
     introduction = get_introduction(txt)
     abstract = get_abstract(txt)
-    method = get_methodology(txt)
 
     corpus = (abstract + introduction)
     corpus = sent_tokenize(corpus)
@@ -82,18 +81,13 @@ def get_objective(txt):
     key_words = [
         "objective",
         "the purpose",
-        "aim",
-        "goal",
+        "aim", "goal",
         "research question",
-        "intention",
-        "motivation",
-        "rational",
+        "intention", "motivation",
+        "mission", "this study",
+        "this paper", "this research",
+        "this article", "this work",
         "investigative goal",
-        "mission",
-        "this study",
-        "this paper",
-        "this research",
-        "this article"
     ]
 
     objectives = []
@@ -103,9 +97,8 @@ def get_objective(txt):
             if i != -1:
                 objectives.append(sentence)
                 break
-        
-    # objective = '|'.join(objectives)
-    return [objectives, method]
+                
+    return objectives
 
 def get_methodology(txt):
     corpus = sent_tokenize(txt)
@@ -141,26 +134,16 @@ def get_problem(txt):
     corpus = sent_tokenize(introduction)
 
     key_words = [
-        "problem",
-        "issue",
-        "challenge",
-        "difficulty",
-        "obstacle",
-        "barrier",
-        "trouble",
-        "hurdle",
-        "dilemma",
-        "predicament",
-        "quandary",
-        "impasse",
-        "puzzle",
-        "enigma",
-        "mystery",
-        "riddle",
-        "question",
-        "conundrum",
-        "headache",
-        "stumbling block",
+        "problem", "issue",
+        "challenge", "difficulty",
+        "obstacle", "barrier",
+        "trouble", "hurdle",
+        "dilemma", "predicament",
+        "quandary", "impasse",
+        "puzzle", "enigma",
+        "mystery", "riddle",
+        "question", "conundrum",
+        "headache", "stumbling block",
         "thorn in one's side"
     ]
 
@@ -178,7 +161,8 @@ def get_contribuition(txt):
     key_words = [
         "contribution",
         "contribute",
-        "contributes"
+        "contributes",
+        "contributions",
     ]
 
     contribuitions = []
@@ -229,7 +213,8 @@ def process():
 
         content = content.split('REFERENCES')[0]
     
-        objective, method = get_objective(content) 
+        objective = get_objective(content)
+        method = get_methodology(content)
         problem = get_problem(content) 
         contribuition = get_contribuition(content)
         content = content.lower()
@@ -258,6 +243,14 @@ def process():
         freq = nltk.FreqDist(tokens)
         frequency = freq.most_common(10)
         
+         # # Bigramas
+        bigrams = list(nltk.bigrams(tokens))
+        freq_bigrams = nltk.FreqDist(bigrams).most_common(10)
+
+        # # Trigramas
+        trigrams = list(nltk.trigrams(tokens))
+        freq_trigrams = nltk.FreqDist(trigrams).most_common(10)
+        
         results.append({
             'title': title,
             'article': path[idx],
@@ -266,7 +259,9 @@ def process():
             'methodology': method,
             'contribuitions': contribuition,
             'references': references,
-            'frequency': frequency
+            'frequency': frequency,
+            'bigrams': freq_bigrams,
+            'trigrams': freq_trigrams
         })
 
         infos.append({
@@ -275,21 +270,6 @@ def process():
             'objectives': objective,
             'score': None
         })
-        
-        # # Bigramas
-        bigrams = list(nltk.bigrams(tokens))
-        # print(bigrams)
-        freq_bigrams = nltk.FreqDist(bigrams)
-        #print('Frequência de bigramas')
-        # print(freq_bigrams.most_common(10))
-      
-
-        # # Trigramas
-        trigrams = list(nltk.trigrams(tokens))
-        # print(trigrams)
-        freq_trigrams = nltk.FreqDist(trigrams)
-        #print('Frequência de trigramas')
-        #print(freq_trigrams.most_common(10))
        
     write_in_json(results)
     
